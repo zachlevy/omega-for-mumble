@@ -1,4 +1,4 @@
-# FACTOR.IO - <i>a new mumble skin</i>
+# FACTOR.IO - <i>a new mumble theme</i>
 
 Release <i>0.04</i> <br>
 by <b>DonZooles [ZOOL]</b> <br>
