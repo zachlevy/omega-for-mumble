@@ -41,6 +41,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+Qt::Window {
+
+}
+
 /*
  * Buttons
  */
@@ -149,9 +153,9 @@ QComboBox QAbstractItemView {
  * Input box
  */
 QTextEdit {
-	background-color: #FAFAFA;
-	color: #2A374D;
-	border: 2px solid #1++47DBD;
+	background-color: #2A374D;
+	color: #FFF;
+	border: 0px solid #147DBD;
 }
 
 /*
@@ -218,19 +222,19 @@ QTreeView {
 
 QTreeView::branch:has-children:!has-siblings:closed,
 QTreeView::branch:closed:has-children:has-siblings {
-	border-image: none;
-	image: url(skin:branch_closed.svg);
+	background-color: #FFF;
 }
 
 QTreeView::branch:open:has-children:!has-siblings,
 QTreeView::branch:open:has-children:has-siblings {
-	border-image: none;
-	image: url(skin:branch_open.svg);
+	background-color: #FFF;
 }
 
 QTreeView::item {
 	border: 0;
-  padding: 8px;
+  padding: 7px;
+  background-color: #2f3e56;
+  border-bottom: 1px solid #34455E;
 }
 
 QTreeView::item:hover {
@@ -239,14 +243,12 @@ QTreeView::item:hover {
 
 QTreeView::item:selected,
 QTreeView::item:selected:active {
-	background-color: #2C3E50;
-  padding: 10px;
+	background-color: #2A374D;
+  margin-left: 4px;
 }
 
 QTreeView::item:selected:!active {
-	background-color: #313E4B;
-	color: #BBB;
-  padding: 9px;
+	background-color: #2A374D;
 }
 
 /*
@@ -392,20 +394,29 @@ QMenu::indicator {
 	height: 20px;
 }
 
+QDialog {
+  margin-left: 0px;
+}
+
 QListWidget {
-  border: 0;
   background: #2A374D;
+  width: 500px;
+  position: fixed;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 }
 
 QListWidget::item {
   padding: 10px;
-  border-left: 5px;
+  border-left: 0px solid transparent;
 }
 
 QListWidget::item:hover {
   color: #FFF;
   background: #34455E;
   border-left: 5px solid #1793E0;
+  padding-left: 5px;
 }
 
 QListWidget::item:selected {
@@ -414,13 +425,19 @@ QListWidget::item:selected {
   border-left: 5px solid #1793E0;
 }
 
+QCheckBox {
+  padding: 10px;
+  background: #2A374D;
+  margin: 0;
+}
+
 /*
  * ANIMATION
  */
 
 UserView#qtvUsers {
  qproperty-animated:true;
- qproperty-indentation: 2;
+ qproperty-indentation: 4;
 }
 
 ServerView#qtwServers {
