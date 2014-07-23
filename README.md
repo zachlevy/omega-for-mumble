@@ -1,6 +1,6 @@
 # FACTOR.IO - <i>a new mumble theme</i>
 
-Release <i>0.04</i> <br>
+Release <i>0.04</i> for Mumble 1.3.0<br>
 by <b>DonZooles [ZOOL]</b> <br>
 based on [FlatMumble](https://github.com/xPaw/FlatMumble)
 
