@@ -1,8 +1,12 @@
 /*
- * Flat Mumble Theme by xPaw
+ * factor.io
  *
- * Website: http://xpaw.ru
- * GitHub: https://github.com/xPaw
+ * by DonZooles [ZOOL]
+ * based on FlatMumble
+ *
+ * Release 0.04
+ *
+ *
  *
  * Licensed under The Do What The Fuck You Want To Public License (WTFPL)
  */
@@ -10,6 +14,10 @@
 QMainWindow, QDialog, QWidget {
 	background-color: #34455E;
 	color: #FFF;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: Microdoft Tai Le;
 }
 
 QMainWindow::separator {
@@ -153,6 +161,7 @@ QToolBar {
 	background-color: #34455E;
 	border: 0;
 	spacing: 0px;
+  moveable: none;
 }
 
 QToolBar#qtIconToolbar {
@@ -381,6 +390,28 @@ QMenu::separator {
 QMenu::indicator {
 	width: 25px;
 	height: 20px;
+}
+
+QListWidget {
+  border: 0;
+  background: #2A374D;
+}
+
+QListWidget::item {
+  padding: 10px;
+  border-left: 5px;
+}
+
+QListWidget::item:hover {
+  color: #FFF;
+  background: #34455E;
+  border-left: 5px solid #1793E0;
+}
+
+QListWidget::item:selected {
+  color: #FFF;
+  background: #34455E;
+  border-left: 5px solid #1793E0;
 }
 
 /*
