@@ -46,3 +46,5 @@ based on [FlatMumble](https://github.com/xPaw/FlatMumble)
 7. `Right Click > Configure > Hide Frame`
 
 [`Official Installation Guide`](http://mumble.sourceforge.net/Skins#Installing_a_Skin)
+
+If Mumble 1.3 is installed activate the channel filter
