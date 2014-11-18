@@ -1,3 +1,26 @@
-<svg width="500" xmlns="http://www.w3.org/2000/svg" height="500" viewBox="0 0 500 500">
-    <path fill="#c0392b" fill-rule="evenodd" d="m36.992,281.798c0,102.851 83.406,186.253 186.251,186.253 102.849,0 186.251-83.402 186.251-186.253 0-35.16-15.082-79.861-27.254-98.847-10.543-16.263-14.181-26.712-14.181-41.976 0-31.799 33.529-63.599 68.693-63.599h4.543c12.536,0 22.711-10.177 22.711-22.713 0-12.536-10.175-22.713-22.711-22.713h-4.543c-55.881,0-103.669,29.803-115.024,90.853-23.267-17.624-59.419-27.254-98.486-27.254-102.844-.001-186.25,83.404-186.25,186.249zm163.538,0c0-12.536 10.177-22.712 22.713-22.712 12.536,0 22.713,10.176 22.713,22.712 0,12.54-10.177,22.715-22.713,22.715-12.536,0-22.713-10.175-22.713-22.715zm-118.112,0c0-22.624 18.26-40.884 40.884-40.884 22.625,0 40.886,18.26 40.886,40.884 0,22.627-18.26,40.887-40.886,40.887-22.623,0-40.884-18.26-40.884-40.887zm199.88,0c0-22.624 18.26-40.884 40.887-40.884 22.624,0 40.885,18.26 40.885,40.884 0,22.627-18.261,40.887-40.885,40.887-22.627,0-40.887-18.26-40.887-40.887zm-99.94,99.943c0-22.628 18.26-40.889 40.886-40.889 22.626,0 40.885,18.261 40.885,40.889 0,22.623-18.26,40.883-40.885,40.883-22.625,0-40.886-18.26-40.886-40.883zm0-199.883c0-22.624 18.26-40.883 40.886-40.883 22.626,0 40.885,18.26 40.885,40.883 0,22.625-18.26,40.886-40.885,40.886-22.625,0-40.886-18.261-40.886-40.886z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" inkscape:version="0.47pre2 r22153" sodipodi:docname="rec.svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="520px" height="520px"
+	 viewBox="0 0 520 520" enable-background="new 0 0 520 520" xml:space="preserve">
+<sodipodi:namedview  inkscape:cx="73.187312" id="base" inkscape:cy="254.97196" bordercolor="#666666" pagecolor="#ffffff" borderopacity="1.0" showgrid="false" inkscape:zoom="1.4" inkscape:window-x="-8" inkscape:window-maximized="1" inkscape:pageopacity="0.0" inkscape:document-units="px" inkscape:pageshadow="2" inkscape:current-layer="layer2" inkscape:window-y="-8" inkscape:window-width="2048" inkscape:window-height="1100">
+	</sodipodi:namedview>
+<g id="layer2" transform="translate(-136.18941,-316.83273)" inkscape:label="Layer" inkscape:groupmode="layer" display="none">
+	
+		<radialGradient id="path3663_1_" cx="953.4006" cy="1213.5579" r="297.0985" gradientTransform="matrix(0.8754 0 0 0.8751 -438.4174 -485.1515)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#969696"/>
+		<stop  offset="0.5347" style="stop-color:#C8C8C8"/>
+		<stop  offset="0.9483" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#646464"/>
+	</radialGradient>
+	
+		<path id="path3663" sodipodi:cx="391.42856" sodipodi:cy="592.36218" sodipodi:ry="291.42856" sodipodi:type="arc" sodipodi:rx="288.57144" display="inline" fill="none" stroke="url(#path3663_1_)" stroke-width="16.9717" d="
+		M648.798,576.833c0,139.512-113.097,252.608-252.608,252.608S143.581,716.344,143.581,576.833s113.097-252.608,252.608-252.608
+		S648.798,437.321,648.798,576.833z"/>
+</g>
+<g id="layer3" transform="translate(-136.18941,-316.83273)" inkscape:label="Layer#1" inkscape:groupmode="layer">
+</g>
+<circle fill="#FF4040" cx="260.787" cy="260.787" r="255.118"/>
 </svg>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px"
+	 height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<g id="svg1306" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:version="0.46" sodipodi:version="0.32" sodipodi:docbase="/home/jimmac/src/cvs/tango-icon-theme/scalable/actions" sodipodi:docname="format-text-bold.svg" display="none">
+	<defs  display="inline">
+		
+		
+			<inkscape:perspective  id="perspective46" sodipodi:type="inkscape:persp3d" inkscape:vp_z="48 : 24 : 1" inkscape:vp_x="0 : 24 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:persp3d-origin="24 : 16 : 1">
+			</inkscape:perspective>
+	</defs>
+	
+		<sodipodi:namedview  fill="#2e3436" stroke="#204a87" inkscape:cx="-116.87002" id="base" inkscape:zoom="1" showgrid="false" inkscape:cy="47.121576" borderopacity="0.18039216" pagecolor="#ffffff" showguides="false" bordercolor="#666666" inkscape:pageopacity="0.0" inkscape:document-units="px" inkscape:current-layer="layer5" inkscape:guide-bbox="true" inkscape:pageshadow="2" showborder="true" inkscape:showpageshadow="false" inkscape:grid-points="true" inkscape:grid-bbox="true" inkscape:window-x="390" inkscape:window-width="1044" inkscape:window-height="818" inkscape:window-y="30">
+		<sodipodi:guide  id="guide2257" position="14.406922" orientation="vertical"></sodipodi:guide>
+		<sodipodi:guide  id="guide2259" position="41.565351" orientation="horizontal"></sodipodi:guide>
+		<sodipodi:guide  id="guide2261" position="29.03324" orientation="vertical"></sodipodi:guide>
+		<sodipodi:guide  id="guide2265" position="19.964923" orientation="vertical"></sodipodi:guide>
+		<sodipodi:guide  id="guide2267" position="31.739108" orientation="horizontal"></sodipodi:guide>
+		<sodipodi:guide  id="guide2269" position="28.59445" orientation="horizontal"></sodipodi:guide>
+		<sodipodi:guide  id="guide2271" position="24.133423" orientation="vertical"></sodipodi:guide>
+		<sodipodi:guide  id="guide2266" position="14.56111" orientation="horizontal"></sodipodi:guide>
+		
+			<inkscape:grid  type="xygrid" color="#0000ff" id="GridFromPre046Settings" opacity="0.2" empcolor="#0000ff" originx="0px" spacingy="0.5px" originy="0px" spacingx="0.5px" empopacity="0.4" empspacing="2">
+			</inkscape:grid>
+	</sodipodi:namedview>
+	<g id="layer5" inkscape:label="Shadow" inkscape:groupmode="layer" display="inline">
+		
+			<radialGradient id="path2492_1_" cx="287.5692" cy="-931.9957" r="15.6472" gradientTransform="matrix(1.4701 0 0 -0.2874 -399.0181 -227.4388)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#000000"/>
+			<stop  offset="1" style="stop-color:#000000;stop-opacity:0"/>
+		</radialGradient>
+		
+			<path id="path2492" sodipodi:rx="15.644737" sodipodi:cy="36.421127" sodipodi:ry="8.3968935" sodipodi:cx="24.837126" sodipodi:type="arc" inkscape:r_cy="true" inkscape:r_cx="true" opacity="0.2" fill="url(#path2492_1_)" enable-background="new    " d="
+			M46.75,40.418c0.004,2.483-10.29,4.497-22.993,4.498S0.754,42.904,0.75,40.421c0-0.001,0-0.002,0-0.003
+			c-0.004-2.483,10.29-4.497,22.993-4.498c12.703-0.001,23.003,2.012,23.007,4.495C46.75,40.416,46.75,40.417,46.75,40.418z"/>
+	</g>
+	<g id="layer4" inkscape:label="A" inkscape:groupmode="layer" display="inline">
+		<g id="g2464" transform="translate(0,4)">
+			
+				<linearGradient id="path2277_1_" gradientUnits="userSpaceOnUse" x1="415.2693" y1="-257.2669" x2="400.4435" y2="-230.1744" gradientTransform="matrix(1 0 0 -1 -389.78 -221.84)">
+				<stop  offset="0" style="stop-color:#497FC6"/>
+				<stop  offset="1" style="stop-color:#90B3D9"/>
+			</linearGradient>
+			
+				<linearGradient id="path2277_2_" gradientUnits="userSpaceOnUse" x1="413.78" y1="-256.8232" x2="413.78" y2="-228.2742" gradientTransform="matrix(1 0 0 -1 -389.78 -221.84)">
+				<stop  offset="0" style="stop-color:#2A5387"/>
+				<stop  offset="1" style="stop-color:#3465A4"/>
+			</linearGradient>
+			<path id="path2277" sodipodi:nodetypes="ccccccccccccccc" fill="url(#path2277_1_)" stroke="url(#path2277_2_)" d="M18,0.5
+				l-15,37h10l2.224-6h17.508l2.268,6h10l-15-37h-3h-6H18z M24,9l5.594,14.5H18.406L24,9z"/>
+			
+				<linearGradient id="path2304_1_" gradientUnits="userSpaceOnUse" x1="408.7895" y1="-238.1409" x2="420.7544" y2="-294.8069" gradientTransform="matrix(1 0 0 -1 -389.78 -224.84)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#B3B3B3;stop-opacity:0"/>
+			</linearGradient>
+			
+				<path id="path2304" sodipodi:nodetypes="ccccccccc" opacity="0.7" fill="none" stroke="url(#path2304_1_)" enable-background="new    " d="
+				M4.463,36.5l14.235-35h10.647l14.218,35h-7.887l-2.177-6h-19l-2.235,6H4.463z"/>
+			
+				<linearGradient id="path2306_1_" gradientUnits="userSpaceOnUse" x1="414.9222" y1="-249.3536" x2="416.5962" y2="-231.8536" gradientTransform="matrix(1 0 0 -1 -390.78 -225.84)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+			</linearGradient>
+			
+				<path id="path2306" sodipodi:nodetypes="cccc" opacity="0.7" fill="none" stroke="url(#path2306_1_)" enable-background="new    " d="
+				M16.881,24.5h14.237L24,6.5L16.881,24.5z"/>
+		</g>
+	</g>
+</g>
+<g id="Ebene_2">
+	<g>
+		<text transform="matrix(1 0 0 1 4.349 42.96)" font-family="'Arial-BoldMT'" font-size="53.0089">B</text>
+		<text transform="matrix(1 0 0 1 4.349 42.96)" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="53.0089">B</text>
+	</g>
+</g>
+</svg>
