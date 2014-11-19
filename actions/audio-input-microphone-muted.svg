@@ -2,21 +2,19 @@
 <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
-	 id="svg11300" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" sodipodi:version="0.32" inkscape:export-xdpi="90.000000" inkscape:export-ydpi="90.000000" sodipodi:docbase="/home/tigert/cvs/freedesktop.org/tango-icon-theme/scalable/devices" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:export-filename="/home/jimmac/Desktop/wi-fi.png" inkscape:version="0.46" sodipodi:docname="audio-input-microphone.svg"
+	 id="svg11300" sodipodi:docname="audio-input-microphone.svg" inkscape:version="0.46" inkscape:export-filename="/home/jimmac/Desktop/wi-fi.png" inkscape:output_extension="org.inkscape.output.svg.inkscape" sodipodi:docbase="/home/tigert/cvs/freedesktop.org/tango-icon-theme/scalable/devices" inkscape:export-ydpi="90.000000" inkscape:export-xdpi="90.000000" sodipodi:version="0.32" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
 	 viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<rect x="20.753" y="1.378" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 58.1686 24.0947)" fill="#FF4040" width="6.682" height="45.433"/>
 <g>
-	<path fill="#FFFFFF" d="M13.683,30.72l-6.626-6.626c-4.705,4.705-4.705,12.333,0,17.037s12.333,4.705,17.037,0l17.037-17.037
-		c4.705-4.705,4.705-12.333,0-17.037s-12.333-4.705-17.037,0l6.626,6.626c1.046,1.046,1.046,2.741,0,3.786
-		c-1.046,1.046-2.741,1.046-3.786,0l-6.626-6.626l-2.84,2.84l6.626,6.626c1.046,1.046,1.046,2.74,0,3.786s-2.741,1.046-3.786,0
-		l-6.626-6.626l-2.84,2.84l6.626,6.626c1.046,1.046,1.046,2.741,0,3.786C16.423,31.766,14.728,31.766,13.683,30.72z"/>
-	<path display="none" fill="#FF4040" d="M31.778,33.782l-0.007-0.007c0.369-0.369,0.369-0.967,0-1.336
-		c-0.369-0.369-0.967-0.369-1.336,0c-0.01,0.01-0.014,0.025-0.023,0.035c-4.061,4.029-10.619,4.021-14.668-0.028
-		c-4.059-4.059-4.059-10.64,0-14.699c0.369-0.369,0.369-0.967,0-1.336c-0.369-0.369-0.967-0.369-1.336,0
-		c-4.571,4.571-4.776,11.844-0.634,16.67l-6.047,6.047l-3.341-3.341c-0.369-0.369-0.967-0.369-1.336,0
-		c-0.369,0.369-0.369,0.967,0,1.336l3.341,3.341L7.725,41.8l3.341,3.341c0.369,0.369,0.967,0.369,1.336,0
-		c0.369-0.369,0.369-0.967,0-1.336l-3.341-3.341l6.047-6.047C19.934,38.558,27.207,38.354,31.778,33.782z"/>
+	<path fill="#FFFFFF" d="M26.934,17.469l-6.626-6.626l-0.249,0.249l17.037,17.037l4.035-4.035c4.705-4.705,4.705-12.333,0-17.037
+		c-4.705-4.704-12.333-4.705-17.037,0l6.626,6.626c1.046,1.046,1.046,2.741,0,3.786C29.674,18.515,27.979,18.515,26.934,17.469z"/>
+	<path fill="#FFFFFF" d="M11.092,20.059l-0.25,0.25l6.626,6.626c1.046,1.046,1.046,2.741,0,3.786
+		c-1.045,1.045-2.74,1.045-3.785-0.001l-6.626-6.626c-4.705,4.705-4.705,12.333,0,17.037c4.705,4.704,12.333,4.705,17.037,0
+		l4.035-4.035L11.092,20.059z"/>
 </g>
-<rect x="20.551" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -9.9803 24.0945)" fill="#FF4040" width="7.087" height="48.189"/>
-<rect x="20.551" y="0" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 24.0945 58.1692)" display="none" fill="#FF4040" width="7.087" height="48.189"/>
+<rect x="20.551" y="0.001" transform="matrix(0.7071 0.7071 -0.7071 0.7071 24.0947 -9.9802)" display="none" fill="#FF4040" width="7.087" height="48.189"/>
+<path display="none" fill="#FF4040" d="M24.009,0C10.749,0,0,10.749,0,24.009c0,13.26,10.749,24.009,24.009,24.009
+	s24.009-10.749,24.009-24.009C48.019,10.749,37.27,0,24.009,0z M24.009,42.435c-10.176,0-18.425-8.249-18.425-18.425
+	c0-10.176,8.249-18.425,18.425-18.425s18.425,8.249,18.425,18.425C42.435,34.185,34.185,42.435,24.009,42.435z"/>
 </svg>
