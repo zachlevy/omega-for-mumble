@@ -97,24 +97,25 @@ QPushButton:pressed {
  * Group boxes, and various input elements
  */
 QGroupBox {
-	background-color: #34495E;
-	border: 0px solid #2A374D;
+	background: #FFF;
+	border-left: 5px solid #40bfff;
 	border-bottom: 0px solid #444;
 	padding: 12px;
-  margin: 0px;
-  padding-top: 30px;
-  font-size: 11pt;
+	margin: 0px;
+	padding-top: 30px;
+	font-size: 12pt;
+	font-family: url(JuliusSansOne-Regular.ttf);
 }
 
 QGroupBox::title {
   subcontrol-origin: margin;
   subcontrol-position: top center;
-  padding: 13px -100px;
-  background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #FFOECE, stop: 1 #FFFFFF);
+  padding: 10px -2px;
+  color: #000;
  }
 
 QTabWidget::pane {
-	background-color: #000;
+	background: #000;
 }
 
 /*QWidget {
@@ -123,16 +124,15 @@ QTabWidget::pane {
 }*/
 
 QTabBar::tab {
-	background-color: transparent;
-  padding: 10px;
+	background: transparent;
 }
 
 QTabBar::tab:selected {
-	background-color: #2A374D;
+	background: #2A374D;
 }
 
 QTabBar::tab:selected:hover {
-	color: #FFF;
+	color: #000;
 }
 
 QTabBar::tab:hover {
