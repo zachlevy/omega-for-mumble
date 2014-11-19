@@ -271,13 +271,14 @@ QTreeView {
 
 QTreeView::branch:has-children:!has-siblings:closed,
 QTreeView::branch:closed:has-children:has-siblings {
-	background: #F26255;
+	background: #31353D;
+	margin-bottom: 3px;
 }
 
 QTreeView::branch:open:has-children:!has-siblings,
 QTreeView::branch:open:has-children:has-siblings {
-	background: #F26255;
-	width: 0px;
+	background: #40BFFF;
+	margin-bottom: 3px;
 }
 
 QTreeView::item {
@@ -291,14 +292,14 @@ QTreeView::item {
 
 QTreeView::item:hover {
 	background-color: #292C33;
-  left-border: 0;
-  color: #FFF;
+	left-border: 0;
+	color: #FFF;
 }
 
 QTreeView::item:selected,
 QTreeView::item:selected:active {
 	background-color: #292C33;
-  border: 0;
+	border: 0;
 }
 
 QTreeView::item:selected:!active {
@@ -498,7 +499,7 @@ QDialog {
 
 UserView#qtvUsers {
  qproperty-animated: true;
- qproperty-indentation: 3;
+ qproperty-indentation: 10;
 }
 
 ServerView#qtwServers {
