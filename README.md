@@ -4,7 +4,7 @@ Release <i>0.1c</i> for Mumble 1.3.0<br>
 by <b>DonZooles [ZOOL]</b> <br>
 based on [FlatMumble](https://github.com/xPaw/FlatMumble)
 
-![factor io r0 04](https://cloud.githubusercontent.com/assets/8238512/3664085/7580a76e-11d9-11e4-9d76-fb39d9b6672a.png)
+![factor io r0 04](https://raw.githubusercontent.com/DonZooles/factor.io/gh-pages/images/v0.1c.png)
 
 ## Installation - DEUTSCH
 
