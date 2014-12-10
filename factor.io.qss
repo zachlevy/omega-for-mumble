@@ -69,8 +69,8 @@ a:hover {
 	color: #2980b9;
 }
 
-Qt::Window {
-
+Qt::Tool {
+	qproperty-frame: false;
 }
 
 /*
@@ -140,6 +140,10 @@ QTabBar::tab:selected:hover {
 }
 
 QTabBar::tab:hover {
+	background: #HHH;
+}
+
+QTabBar::tab:selected:hover {
 	background: #333;
 }
 
@@ -193,15 +197,21 @@ QComboBox QAbstractItemView {
  */
 QTextEdit {
 	background-color: #2C2E39;
-	color: #FFF;
+	color: #000;
 	border: 0px solid #147DBD;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
 }
 
 /*
  * Toolbar
+ * #3399CC;
+ * #40BFFF;
  */
+ 
 QToolBar {
-	background-color: #24252D;
+	background-color: #3399CC;
 	border: 0;
 	spacing: 0px;
 	moveable: none;
@@ -220,7 +230,7 @@ QToolBar::separator {
 }
 
 QToolBar::handle {
-  image: url(handle.png);
+  width: 0px;
 }
 
 QToolTip {
@@ -234,8 +244,10 @@ QToolTip {
 QToolButton {
 	background-color: transparent;
 	border: 0;
-  height: 10px;
-  padding: 5px;
+	height: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding: 12,5%;
 }
 
 QToolButton:hover {
@@ -244,17 +256,15 @@ QToolButton:hover {
 }
 
 QToolButton:on {
-	background-color: transparent;
 	border: 0;
 }
 
 QToolButton:off {
-	background-color: transparent;
 	border: 0;
 }
 
-qaServerConnect {
-  background: #000;
+QToolButton#qaServerConnect {
+  width: 0px;
 }
 
 /*
