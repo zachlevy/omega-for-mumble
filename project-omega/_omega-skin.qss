@@ -60,12 +60,14 @@ QMainWindow {
 	font-family: url(Aileron.otf); }
 
 QMainWindow::separator {
-	background: transparent;
+	background: #3D97F2;
+	color: #FFF;
 	width: 1px;
 	height: 1px; }
 
 QMainWindow::separator:hover {
-	background: #2A374D; }
+	background: #3D97F2;
+	color: #FFF; }
 
 a {
 	color: #CCC;
@@ -73,9 +75,6 @@ a {
 
 a:hover {
 	color: #2980b9; }
-
-Qt::Tool {
-	qproperty-frame: false; }
 
 /* * * * * * * * * */
 /* * * BUTTONS * * */
@@ -94,6 +93,10 @@ QPushButton:hover {
 QPushButton:pressed {
 	background: #3077BF;
 	color: #FFF; }
+
+QPushButton:disabled {
+	background: #EEE;
+	color: #AAA; }
 	
 QPushButton#qpbAdd {
 	background: #3D97F2;
@@ -230,7 +233,6 @@ QToolBar::handle {
 /* * * * * * * * * */
 
 QToolTip {
-  background: #000;
   background: #FFF;
   border: 2px solid #F0F0F0;
   padding: 5px;
@@ -528,4 +530,47 @@ QDialog#ConfigDialog {
 	qproperty-layoutRowStretch: (0 0 0 0 0); }
 
 QDialog#ConnectDialog {
-	qproperty-geometry: rect(center 100 500 500); }
+	qproperty-geometry: rect(200 200 500 500); }
+
+QMainWindow#MainWindow {
+	qproperty-windowTitle: "Mumble  - Omega";
+	qproperty-geometry: rect(1662 606 258 440);
+	qproperty-frame: false; }
+
+QDockWidget#qdwLog {
+	qproperty-geometry: rect(0 0 263 440);}
+
+/* * * * * * * * * * */
+/* * * RECORDING * * */
+/* * * * * * * * * * */
+
+QPushButton#qpbStart {
+	background: #3D97F2;
+	color: #FFF; }
+
+QPushButton#qpbStart:hover {
+	background: #3787D9; }
+
+QPushButton#qpbStart:pressed {
+	background: #3077BF; }
+
+QPushButton#qpbStart:disabled {
+	background: #EEE;
+	color: #AAA; }
+
+QPushButton#qpbStop {
+	background: #F23D3D;
+	color: #FFF; }
+
+QPushButton#qpbStop:hover {
+	background: #D93737; }
+
+QPushButton#qpbStop:pressed {
+	background: #BF3030; }
+
+QPushButton#qpbStop:disabled {
+	background: #EEE;
+	color: #AAA; }
+
+QListWidget#viewCert {
+	background: #000; }
