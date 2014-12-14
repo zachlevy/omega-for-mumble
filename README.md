@@ -1,23 +1,22 @@
-# #twisted - <i>a new mumble theme</i>
+# Project Omega — <i>SUAGMYM-Edition</i>
 
-Release <i>0.1e</i> for Mumble 1.3.0<br>
-by <b>DonZooles [ZOOL]</b> <br>
-based on [FlatMumble](https://github.com/xPaw/FlatMumble)
+Version <i>0.2</i> // Mumble 1.3.x<br>
+by <b>DonZooles</b> <br>
 
-![factor.io v0.1c](https://raw.githubusercontent.com/DonZooles/factor.io/gh-pages/images/v0.1c.png)
+![Project Omega v0.2](https://raw.githubusercontent.com/DonZooles/project-omega/gh-pages/images/project-omega_v0.2.PNG)
 
 ## Installation - DEUTSCH
 
 
-1. Lade dir die ZIP-Datei herunter [`Download ZIP`](https://github.com/DonZooles/factor.io/archive/master.zip)
+1. Lade dir die ZIP-Datei herunter [`Download ZIP`](https://github.com/DonZooles/project-omega/archive/master.zip)
 
-2. Entpacke den Ordner und schiebe `factor.io` in den Skin-Ordner von Mumble
+2. Entpacke den Ordner und schiebe `Project Omega` in den Skin-Ordner von Mumble
 
-        Beispiel - C:\Programme\Mumble\skins\factor.io
+        Beispiel - C:\Programme\Mumble\skins\project-omega
 
 3. Öffne `Mumble > Konfiguration > Einstellungen > Benutzerinterface`
 
-4. Unter `Aussehen > Skin` auf `Durchsuchen...` klicken und die `factor.io.qss` auswählen
+4. Unter `Aussehen > Skin` auf `Durchsuchen...` klicken und die `_omega-skin.qss` auswählen
 
 5. Anwenden und Mumble neustarten
 
@@ -29,15 +28,15 @@ based on [FlatMumble](https://github.com/xPaw/FlatMumble)
 ## Installation - ENGLISH
 
 
-1. Download the ZIP-file [`Download ZIP`](https://github.com/DonZooles/factor.io/archive/master.zip)
+1. Download the ZIP-file [`Download ZIP`](https://github.com/DonZooles/project-omega/archive/master.zip)
 
-2. Extract the file and move `factor.io` into the skin-folder of Mumble
+2. Extract the file and move `Project Omega` into the skin-folder of Mumble
 
-        Example - C:\Program Files\Mumble\skins\factor.io
+        Example - C:\Program Files\Mumble\skins\project-omega
 
 3. Open `Mumble > Configure > Settings > User Interface`
 
-4. Click on `Look and Feel > Skin > Browse...` and choose the `factor.io.qss`
+4. Click on `Look and Feel > Skin > Browse...` and choose the `_omega-skin.qss`
 
 5. Apply the changes and restart Mumble
 
