@@ -1,6 +1,6 @@
 # Project Omega — <i>SUAGMYM-Edition</i>
 
-Version <i>0.2</i> // Mumble 1.3.x<br>
+Version 0.2 // Mumble 1.3.x<br>
 by <b>DonZooles</b> <br>
 
 ![Project Omega v0.2](https://raw.githubusercontent.com/DonZooles/project-omega/gh-pages/images/project-omega_v0.2.PNG)
