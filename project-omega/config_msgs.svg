@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1133.86px" height="1133.86px" viewBox="0 0 1133.86 1133.86" enable-background="new 0 0 1133.86 1133.86"
+	 xml:space="preserve">
+<rect x="170.079" y="170.079" display="none" fill="#F6F6F6" width="793.701" height="793.701"/>
+<g display="none">
+	<g display="inline">
+		<rect x="170.079" y="170.079" fill="#EDEDED" width="113.386" height="595.276"/>
+		<rect x="283.465" y="170.079" fill="#EDEDED" width="113.386" height="595.276"/>
+		<rect x="396.85" y="170.079" fill="#EDEDED" width="113.386" height="595.276"/>
+		<rect x="510.237" y="170.079" fill="#EDEDED" width="113.386" height="595.276"/>
+		<rect x="623.623" y="170.079" fill="#EDEDED" width="113.386" height="595.276"/>
+		<rect x="737.009" y="170.079" fill="#EDEDED" width="113.386" height="595.276"/>
+		<polygon fill="#EDEDED" points="850.395,878.74 850.395,765.354 623.623,765.354 		"/>
+		<rect x="850.395" y="170.079" fill="#EDEDED" width="113.386" height="595.276"/>
+	</g>
+	<g display="inline">
+		<rect x="170.079" y="170.078" fill="#EDEDED" width="793.701" height="85.039"/>
+		<rect x="170.079" y="255.118" fill="#EDEDED" width="793.701" height="85.039"/>
+		<rect x="170.079" y="340.157" fill="#EDEDED" width="793.701" height="85.039"/>
+		<rect x="170.079" y="425.197" fill="#EDEDED" width="793.701" height="85.039"/>
+		<rect x="170.079" y="510.236" fill="#EDEDED" width="793.701" height="85.039"/>
+		<rect x="170.079" y="595.275" fill="#EDEDED" width="793.701" height="85.039"/>
+		<rect x="170.079" y="680.315" fill="#EDEDED" width="793.701" height="85.039"/>
+	</g>
+	<g display="inline">
+		<rect x="396.85" y="340.157" fill="#FFFFFF" width="340.158" height="85.039"/>
+		<rect x="396.85" y="510.236" fill="#FFFFFF" width="340.158" height="85.039"/>
+	</g>
+</g>
+<path fill="#FFFFFF" d="M963.78,212.598l-793.701,0l0,595.275l453.544,0L850.394,921.26V807.874H963.78L963.78,212.598z
+	 M737.008,637.795H396.85v-85.039h340.158V637.795z M737.008,467.716H396.85v-85.039h340.158V467.716z"/>
+</svg>

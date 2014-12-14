@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1133.86px" height="1133.86px" viewBox="0 0 1133.86 1133.86" enable-background="new 0 0 1133.86 1133.86"
+	 xml:space="preserve">
+<g display="none">
+	<path display="inline" fill="#FFFFFF" d="M850.392,496.065c-117.415,0-212.598-95.184-212.598-212.598
+		c0-47.448,15.549-91.261,41.823-126.634c-35.89-9.839-73.674-15.1-112.687-15.1c-234.83,0-425.197,190.367-425.197,425.197
+		S332.1,992.127,566.93,992.127S992.127,801.76,992.127,566.93c0-39.013-5.26-76.797-15.1-112.687
+		C941.653,480.515,897.84,496.065,850.392,496.065z"/>
+	<path display="inline" fill="#3D97F2" d="M850.392,141.732c-78.278,0-141.734,63.456-141.734,141.734S772.114,425.2,850.392,425.2
+		s141.734-63.456,141.734-141.734S928.669,141.732,850.392,141.732z M878.74,382.679h-56.693V184.254h56.693V382.679z"/>
+</g>
+<g display="none">
+	<rect x="170.079" y="170.079" display="inline" fill="#EEEEEE" width="793.701" height="793.701"/>
+	<g display="inline">
+		<rect x="170.079" y="170.079" fill="#AFAFAF" width="113.386" height="793.701"/>
+		<rect x="737.009" y="170.079" fill="#AFAFAF" width="113.386" height="793.701"/>
+		<rect x="850.395" y="170.079" fill="#AFAFAF" width="113.386" height="793.701"/>
+		<rect x="623.623" y="170.079" fill="#AFAFAF" width="113.386" height="793.701"/>
+		<rect x="283.465" y="170.079" fill="#AFAFAF" width="113.386" height="793.701"/>
+		<rect x="396.85" y="170.079" fill="#AFAFAF" width="113.386" height="793.701"/>
+		<rect x="510.237" y="170.079" fill="#AFAFAF" width="113.386" height="793.701"/>
+		<rect x="170.079" y="170.078" fill="#AFAFAF" width="793.701" height="113.386"/>
+		<rect x="170.079" y="737.008" fill="#AFAFAF" width="793.701" height="113.386"/>
+		<rect x="170.079" y="850.394" fill="#AFAFAF" width="793.701" height="113.386"/>
+		<rect x="170.079" y="623.623" fill="#AFAFAF" width="793.701" height="113.386"/>
+		<rect x="170.079" y="283.464" fill="#AFAFAF" width="793.701" height="113.386"/>
+		<rect x="170.079" y="396.85" fill="#AFAFAF" width="793.701" height="113.386"/>
+		<rect x="170.079" y="510.237" fill="#AFAFAF" width="793.701" height="113.386"/>
+	</g>
+</g>
+<g>
+	<polygon fill="#FFFFFF" points="850.395,170.078 396.85,170.078 396.85,283.464 850.395,283.464 850.395,623.622 963.78,623.622 
+		963.78,283.464 963.78,170.078 	"/>
+	<polygon fill="#FFFFFF" points="170.079,396.85 170.079,510.236 623.623,510.236 623.623,737.007 737.008,737.007 737.008,510.236 
+		737.008,396.85 623.623,396.85 	"/>
+	<polygon fill="#FFFFFF" points="510.237,850.394 396.85,737.008 283.464,737.008 283.464,510.236 170.079,510.236 170.079,737.008 
+		170.079,737.008 170.079,850.394 396.85,850.394 510.236,963.78 623.623,963.78 623.623,850.394 737.008,850.394 737.008,737.008 
+		510.237,737.008 	"/>
+</g>
+</svg>
