@@ -3,7 +3,7 @@
 Version 0.2a // Mumble 1.3.x<br>
 by <b>DonZooles</b> <br>
 
-![Project Omega v0.2](https://raw.githubusercontent.com/DonZooles/project-omega/gh-pages/images/project-omega_v0.2.PNG)
+![Project Omega v0.2b](http://wiki.mumble.info/images/c/c5/Project-omega-v0.2b.png)
 
 ## Installation - DEUTSCH
 
