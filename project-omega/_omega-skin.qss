@@ -102,14 +102,14 @@ QMainWindow {
 QMainWindow::separator {
 	background: #3D97F2;
 	color: #FFF;
-	width: 0px;
+	width: 1px;
 	height: 0px;
 	padding: 0px; }
 
 QMainWindow::separator:hover {
 	background: #3D97F2;
 	color: #FFF;
-	width: 0px;
+	width: 1px;
 	height: 0px;
 	padding: 0px; }
 
