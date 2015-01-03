@@ -27,6 +27,20 @@
 /* * *  coming soon  * * */
 /* * * * * * * * * * * * */
 
+/* * * * * * * * * * * * * */
+/* * * CUSTOM OPACITY * * */
+/* * * * * * * * * * * * * */
+
+QDialog#ConfigDialog {
+	qproperty-windowOpacity: .95;} /* Set this to desired opacity */
+
+QDialog#ConnectDialog {
+	qproperty-windowOpacity: .95;} /* Set this to desired opacity */
+
+QMainWindow#MainWindow {
+	qproperty-windowOpacity: .95;} /* Set this to desired opacity */
+
+
 /* * * * * * * * * */
 /* * * TABLES * * */
 /* * * * * * * * */
@@ -598,19 +612,16 @@ QDialog#ConfigDialog {
 	qproperty-layoutBottomMargin: 0;
 	qproperty-layoutHorizontalSpacing: 0;
 	qproperty-layoutVerticalSpacing: 0;
-	qproperty-windowOpacity: 0.95;
 	qproperty-layoutRowStretch: (0 0 0 0 0); }
 
 QDialog#ConnectDialog {
 	/* qproperty-geometry: rect(200 200 500 500); */
-	qproperty-windowOpacity: 0.95; 
 	qproperty-customizeWindowHint: true; }
 
 QMainWindow#MainWindow {
 	qproperty-windowTitle: "Mumble - Omega";
 	/*qproperty-geometry: rect(1662 606 258 440); */
-	qproperty-frame: false;
-	qproperty-windowOpacity: 0.95; }
+	qproperty-frame: false;}
 
 /* * * * * * * * * * */
 /* * * RECORDING * * */

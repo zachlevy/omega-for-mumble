@@ -29,6 +29,7 @@ Channel Filter:	Allows you to see only channel with people. Requires Mumble 1.3.
 Layout:			Change the layout of Mumble you want. I use 'Hybrid' and activate/deactivate
 				the log with a right-click on the menubar.
 
-
+Opacity:        To change the opacity (see-through) of the window, adjust the settings in the _omega-skin.qss file
+                near the top of the file. Use percentage numbers as a decimal. Default is .95 (95%)
 
 Official Installation Guide - [http://mumble.sourceforge.net/Skins#Installing_a_Skin]
