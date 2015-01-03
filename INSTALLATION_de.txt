@@ -24,12 +24,16 @@ Minimalansicht:	Eine Minimal-Ansicht ohne Rahmen während du spielst!
 				2. (Rechtsklick > Konfiguration) > 'Fenster verstecken'
 
 Kanal-Filter:	Erlaubt es dir nur Channel mit Personen zu sehen. 
-				Dies benötigt Mumble 1.3.x
-				Du findest einen Button in deiner Toolbar!
+		Dies benötigt Mumble 1.3.x
+		Du findest einen Button in deiner Toolbar!
 				
-Layout:			Ändere dein Layout wie du es haben möchtest. 
-				Ich nutze 'Hybrid' und aktiviere/deaktiviere den log(Chat) 
-				mit einem Rechtsklick auf die Menüleiste.
+Layout:		Ändere dein Layout wie du es haben möchtest. 
+		Ich nutze 'Hybrid' und aktiviere/deaktiviere den log(Chat) 
+		mit einem Rechtsklick auf die Menüleiste.
+				
+Transparenz:    Um die transparenz des Fensters deinen Wünschen anzupassen, musst du die datei _omega-skin.qss ändern.
+                Nutze hierzu den Abschnitt "CUSTOM OPACITY". Gib den Prozentsatz in Dezimalzahlen an. 
+                Standart ist .95 (95%)
 
 
 
