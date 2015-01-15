@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1"
-	 id="svg11300" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" sodipodi:version="0.32" inkscape:export-xdpi="90.000000" inkscape:export-ydpi="90.000000" sodipodi:docbase="/home/tigert/cvs/freedesktop.org/tango-icon-theme/scalable/devices" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:export-filename="/home/jimmac/Desktop/wi-fi.png" inkscape:version="0.46" sodipodi:docname="audio-input-microphone.svg"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px" height="48px"
-	 viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
-<g>
-	<path fill="#FFFFFF" d="M13.683,30.72l-6.626-6.626c-4.705,4.705-4.705,12.333,0,17.037s12.333,4.705,17.037,0l17.037-17.037
-		c4.705-4.705,4.705-12.333,0-17.037s-12.333-4.705-17.037,0l6.626,6.626c1.046,1.046,1.046,2.741,0,3.786
-		c-1.046,1.046-2.741,1.046-3.786,0l-6.626-6.626l-2.84,2.84l6.626,6.626c1.046,1.046,1.046,2.74,0,3.786s-2.741,1.046-3.786,0
-		l-6.626-6.626l-2.84,2.84l6.626,6.626c1.046,1.046,1.046,2.741,0,3.786C16.423,31.766,14.728,31.766,13.683,30.72z"/>
-	<path display="none" fill="#FF4040" d="M31.778,33.782l-0.007-0.007c0.369-0.369,0.369-0.967,0-1.336
-		c-0.369-0.369-0.967-0.369-1.336,0c-0.01,0.01-0.014,0.025-0.023,0.035c-4.061,4.029-10.619,4.021-14.668-0.028
-		c-4.059-4.059-4.059-10.64,0-14.699c0.369-0.369,0.369-0.967,0-1.336c-0.369-0.369-0.967-0.369-1.336,0
-		c-4.571,4.571-4.776,11.844-0.634,16.67l-6.047,6.047l-3.341-3.341c-0.369-0.369-0.967-0.369-1.336,0
-		c-0.369,0.369-0.369,0.967,0,1.336l3.341,3.341L7.725,41.8l3.341,3.341c0.369,0.369,0.967,0.369,1.336,0
-		c0.369-0.369,0.369-0.967,0-1.336l-3.341-3.341l6.047-6.047C19.934,38.558,27.207,38.354,31.778,33.782z"/>
-</g>
-<rect x="20.551" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -9.9803 24.0945)" display="none" fill="#FF4040" width="7.087" height="48.189"/>
-<rect x="20.551" y="0" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 24.0945 58.1692)" display="none" fill="#FF4040" width="7.087" height="48.189"/>
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1133.86px" height="1133.86px" viewBox="0 0 1133.86 1133.86" enable-background="new 0 0 1133.86 1133.86"
+	 xml:space="preserve">
+<rect display="none" fill="#666666" width="1134" height="1134"/>
+<path fill="#FFFFFF" d="M779,533.142c0,113.044-95.085,204.685-212.5,204.685l0,0c-117.415,0-212.5-91.641-212.5-204.685V204.685
+	C354,91.641,449.085,0,566.5,0l0,0C683.915,0,779,91.641,779,204.685V533.142z"/>
+<path fill="#FFFFFF" d="M870,556.962C870,723.694,735.032,858,568.244,858h-3.335C398.121,858,264,723.694,264,556.962v-88.399
+	c0-23.95-19.542-43.366-43.5-43.366S177,444.612,177,468.563v87.217c0,200.722,151.025,365.491,346,386.867V1047H347.017
+	c-23.758,0-43.017,19.259-43.017,43.017v0.967c0,23.757,19.259,43.017,43.017,43.017h438.967c23.758,0,43.017-19.259,43.017-43.017
+	v-0.967c0-23.757-19.259-43.017-43.017-43.017H611V942.556c194.672-21.753,346-186.341,346-386.777v-87.217
+	c0-23.95-19.542-43.366-43.5-43.366S870,444.612,870,468.563V556.962z"/>
 </svg>
