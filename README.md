@@ -2,7 +2,7 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DonZooles/project-omega?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Version 0.2c // Mumble 1.3.x<br>
+Version 0.2d// Mumble 1.3.x<br>
 by <b>DonZooles</b> <br>
 
 ### preview
