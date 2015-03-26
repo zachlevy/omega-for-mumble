@@ -689,7 +689,7 @@ QDialog#ConnectDialog {
 	qproperty-customizeWindowHint: true; }
 
 QMainWindow#MainWindow {
-	qproperty-windowTitle: "Mumble - Omega";
+	qproperty-windowTitle: "Mumble";
 	/*qproperty-geometry: rect(1662 606 258 440); */
 	qproperty-frame: false; }
 
