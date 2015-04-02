@@ -390,19 +390,19 @@ QToolButton {
 }
 
 QToolButton:hover {
-  background: hsb(210, 85, 80);
+  background: #CAD4E0;
   border: 1px;
 }
 
 QToolButton:on {
-  border: 0;
+  background: #ACB9CA;
 }
 
 QToolButton:off {
   border: 0;
 }
 
-QToolButton#qaServerConnect {
+#qaServerConnect {
   background: #F2F2F2;
   width: 0px;
 }
@@ -462,7 +462,7 @@ QTreeView::item:selected:active {
 }
 
 QTreeWidget {
-  background: #000;
+  background: #FFF;
 }
 
 QTreeView#qtwShortcuts {
@@ -578,13 +578,13 @@ QScrollBar::left-arrow, QScrollBar::right-arrow, QScrollBar::up-arrow, QScrollBa
    ========== */
 
 QMenuBar {
-  border-bottom: 1px solid #999;
-  background: #FFF;
-  color: #444;
+  border-bottom: 2px solid #ACB9CA;
+  background: #CAD4E0;
+  color: #374256;
 }
 
 QMenuBar::item {
-  background: #FFF;
+  background: transparent;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
