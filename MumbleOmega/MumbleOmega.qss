@@ -248,7 +248,7 @@ QGroupBox::title {
   padding-right: 90000px;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: #394E6B;
+  color: #374256;
   border-bottom: 2px solid #EAEEF1;
   background: #ECEFF4;
 }
@@ -347,7 +347,7 @@ QTextEdit#qteChat {
    ========= */
  
 QToolBar {
-  background: #EEE;
+  background: #ECEFF4;
   border: 0;
   spacing: 0px;
   moveable: none;
@@ -357,7 +357,6 @@ QToolBar#qtIconToolbar {
   margin: 0px;
   margin-bottom: 0;
   moveable: none;
-  background: #151719;
 }
 
 QToolBar::separator {
@@ -413,8 +412,8 @@ QToolButton#qaServerConnect {
    ================================== */
 
 QTreeView {
-  background: #151719;
-  color: #FFF;
+  background: #FFF;
+  color: #8392A9;
   font: normal 180% Arial, sans-serif;
   font-weight: bold;
   padding: 0px;
@@ -444,24 +443,26 @@ QTreeView::branch:open:has-children:has-siblings:selected {
 
 QTreeView::item {
   height: 26px;
-  padding: 5px;
-  background: #151719;
-  border-bottom: 1px solid #1B1C1D;
+  padding: 4px;
+  background: #FFF;
+  border-bottom: 2px solid #ECEFF4;
 }
 
 QTreeView::item:hover {
-  background: #1B1C1D;
-  color: #FFF;
+  background: #ECEFF4;
+  color: #3C4C66;
+  border-bottom: 2px solid #CAD4E0;
 }
 
 QTreeView::item:selected,
 QTreeView::item:selected:active {
-  background: #151719;
-  border: 0;
+  background: #CAD4E0;
+  color: #374256;
+  border-bottom: 2px solid #ACB9CA;
 }
 
 QTreeWidget {
-  background: #FFF;
+  background: #000;
 }
 
 QTreeView#qtwShortcuts {
