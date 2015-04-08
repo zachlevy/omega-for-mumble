@@ -423,7 +423,7 @@ QTreeView {
 
 QTreeView::branch:has-children:!has-siblings:closed,
 QTreeView::branch:closed:has-children:has-siblings {
-  background: #1B1C1D;
+  background: #536480;
 }
 
 QTreeView::branch:open:has-children:!has-siblings,
