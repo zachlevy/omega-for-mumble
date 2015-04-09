@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1133.9 1133.9" enable-background="new 0 0 1133.9 1133.9" xml:space="preserve">
-<rect x="141.7" y="538.8" display="none" fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" width="106.3" height="240.7"/>
-<rect x="885.8" y="505.1" display="none" fill="#FFFFFF" stroke="#1D1D1B" stroke-miterlimit="10" width="106.3" height="274.5"/>
-<path fill="#2C323E" d="M992.2,604.9L755.9,472.4v-378h37.8V0H340.2v94.5H378v378L141.7,604.9C57,653.9,0,745.5,0,850.4
-	c0,156.6,126.9,283.5,283.5,283.5h566.9c156.6,0,283.5-126.9,283.5-283.5C1133.9,745.5,1076.9,653.9,992.2,604.9z M191.3,691.6
-	l235.6-132L478,531v-58.6V100h177.9v372.4V531l51.1,28.6l235.6,132c13.7,8,26.2,17.7,37.3,28.8h-826
-	C165.1,709.2,177.6,699.5,191.3,691.6z"/>
+<svg version="1.1" id="config_x5F_plugin_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 1133.9 1133.9" enable-background="new 0 0 1133.9 1133.9" xml:space="preserve">
+<path id="config_x5F_plugin" fill="#536480" stroke="#536480" stroke-miterlimit="10" d="M566.9,0C253.8,0,0,253.8,0,566.9
+	s253.8,566.9,566.9,566.9s566.9-253.8,566.9-566.9S880,0,566.9,0z M566.9,1063c-145.8,0-276.9-62.9-367.6-163h318h99.2h318
+	C843.8,1000.1,712.7,1063,566.9,1063z M616.5,800.8V517.3h-99.2v283.5h-388c-29.9-55.9-49.5-118.2-56-184.3h82.6v-99.2H73.3
+	c9.9-99.8,49.4-190.8,109.5-264.3l58.4,58.4l70.2-70.2L253,182.8c73.5-60.1,164.6-99.6,264.3-109.5v82.6h99.2V73.3
+	c99.8,9.9,190.8,49.4,264.3,109.5l-58.4,58.4l70.2,70.2L951,253c60.1,73.5,99.6,164.6,109.5,264.3H978v99.2h82.6
+	c-6.6,66.1-26.1,128.4-56,184.3H616.5z"/>
 </svg>
