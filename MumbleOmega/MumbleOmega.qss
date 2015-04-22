@@ -57,67 +57,62 @@ QHeaderView::up-arrow {
 /* =========
     QSlider
    ========= */
-
-QSlider::groove:horizontal {
-  background: #000;
-}
-
-QSlider::handle:horizontal {
-  background: #EEE;
-  border: #BBB;
-}
-
+   
 QSlider::groove {
-  border-radius: 2px;
-  font-size: 4px;
-}
-
-QSlider::groove:horizontal {
-  height: 1em;
-}
-
-QSlider::groove:vertical {
-  width: 1em;
-}
-
-QSlider::groove:disabled,
-QSlider::sub-page:disabled {
-  background: #282828;
-  border: 1px solid transparent;
-  border-radius: 2px;
-}
-
-QSlider::sub-page {
-  background: #3D97F2;
-  border-radius: 2px;
-}
-
-QSlider::handle {
-  background: #FFF;
+  background: #ECEFF4;
+  border: 3px solid transparent;
   border-radius: 6px;
   font-size: 4px;
 }
 
-QSlider::handle:horizontal {
-  margin: 0px 0px;
-  width: 2.6em;
+QSlider::groove:horizontal {
+  height: 6px;
 }
 
-QSlider::handle:vertical {
-  margin: 0px 0px;
-  height: 2.6em;
+QSlider::groove:vertical {
+  width: 6px;
+}
+
+QSlider::handle {
+  height: 6px;
+  width: 6px;
+  background: #ECEFF4;
+  border: 3px solid #FF9C41;
+  margin: -3px -3px;
+  border-radius: 6px;
+  font-size: 4px;
+}
+
+QSlider::sub-page {
+  background: qlineargradient(x1:0, y0:0, x2:1, y0:0, stop:0 #D5355B, stop:1 #FF9C41);
+  border-radius: 6px;
+}
+
+QSlider::add-page {
+  background: #ECEFF4;
+  border-radius: 6px;
 }
 
 QSlider::handle:hover {
-  background: #3787D9;
+  background: #FF9C41;
+  border: 3px solid #ECEFF4;
 }
 
 QSlider::handle:pressed {
-  background: #3077BF;
+  background: #CAD4E0;
 }
 
 QSlider::handle:disabled {
-  background: #282828;
+  border: 3px solid #CAD4E0;
+  background: #ECEFF4;
+}
+
+QSlider::groove:disabled {
+  background: #ECEFF4;
+}
+
+QSlider::sub-page:disabled {
+  background: #CAD4E0;
 }
 
 ::indicator:exclusive:unchecked {
@@ -127,7 +122,7 @@ QSlider::handle:disabled {
 
 ::indicator:exclusive:checked {
   qproperty-iconSize: 32px;
-  image: url(skin:custom/radio_checked.png);
+  image: url(skin:custom/radio_unchecked.png);
 }
 
 /* =========
@@ -152,7 +147,7 @@ QDialog {
 }
 
 QMainWindow {
-  background: #2C323E;
+  background: #FFF;
   color: #888;
   padding: 0;
   margin: 0;
@@ -163,8 +158,7 @@ QMainWindow::separator {
   background: #3D97F2;
   color: #FFF;
   width: 1px;
-  height: 0px;
-  padding: 0px;
+  height: 1px;
 }
 
 QMainWindow::separator:hover {
@@ -553,20 +547,20 @@ QDockWidget#qdwLog:item {
 
 QScrollBar {
   width: 10px;
-  background: transparent;
+  background: #ECEFF4;
 }
 
 QScrollBar::handle {
   width: 5px;
-  background: #1F2021;
+  background: #CAD4E0;
 }
 
 QScrollBar::handle:hover {
-  background: #3787D9;
+  background: #ACB9CA;
 }
 
 QScrollBar::handle:pressed {
-  background: #3077BF;
+  background: #8392A9;
 }
 
 QScrollBar::left-arrow, QScrollBar::right-arrow, QScrollBar::up-arrow, QScrollBar::down-arrow, QScrollBar::sub-line, QScrollBar::add-line, QScrollBar::add-page, QScrollBar::sub-page, QAbstractScrollArea::corner {
@@ -720,7 +714,6 @@ QDialog#ConnectDialog {
   qproperty-windowTitle: "Mumble";
 	/*qproperty-geometry: rect(1662 606 258 440); */
   qproperty-frame: false;
-  background: transparent;
 }
 
 /* ===============
@@ -728,7 +721,7 @@ QDialog#ConnectDialog {
    =============== */
 
 #ConfigDialog {
-  background: #2C323E;
+  background: #CBD5E1;
   qproperty-LayoutBottomMargin: 0;
   qproperty-LayoutHorizontalSpacing: 0;
   qproperty-LayoutVerticalSpacing: 100;
