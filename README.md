@@ -7,7 +7,7 @@
 by <b>DonZooles</b> <br>
 
 ## Preview
-![2015-0326](https://github.com/donzooles/MumbleOmega/blob/gh-pages/images/2015-0326.png)
+![2015-0402](https://github.com/donzooles/MumbleOmega/blob/gh-pages/images/mockup_2014-0402.png?raw=true)
 
 ## Installation
 1. **_unofficial_** <a href="https://github.com/donzooles/MumbleOmega/wiki/installation#english">install-guide</a> (English, Omega)
