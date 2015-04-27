@@ -1,0 +1,69 @@
+/*
+Error: Invalid CSS after "...h:has-children:": expected "{", was "!has-siblings:c..."
+        on line 458 of A:/Dokumente/GitHub/MumbleOmega/MumbleOmega/source/OmegaBase.scss
+        from line 79 of A:\Dokumente\GitHub\MumbleOmega\MumbleOmega\source\OmegaLite.scss
+
+453:   padding: 0px;
+454:   border: 0px;
+455:   align: center;
+456: }
+457: 
+458: QTreeView::branch:has-children:!has-siblings:closed,
+459: QTreeView::branch:closed:has-children:has-siblings {
+460:   background: #1B1C1D;
+461: }
+462: 
+463: QTreeView::branch:open:has-children:!has-siblings,
+
+Backtrace:
+A:/Dokumente/GitHub/MumbleOmega/MumbleOmega/source/OmegaBase.scss:458
+A:\Dokumente\GitHub\MumbleOmega\MumbleOmega\source\OmegaLite.scss:79
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:641:in `block'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:299:in `to_tree'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:313:in `block in visit_import'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `block in with_import'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:88:in `with_import'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+P:/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+P:/Koala/bin/sass:18:in `load'
+P:/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...h:has-children:\": expected \"{\", was \"!has-siblings:c...\"\A         on line 458 of A:/Dokumente/GitHub/MumbleOmega/MumbleOmega/source/OmegaBase.scss\A         from line 79 of A:\Dokumente\GitHub\MumbleOmega\MumbleOmega\source\OmegaLite.scss\A \A 453:   padding: 0px;\A 454:   border: 0px;\A 455:   align: center;\A 456: }\A 457: \A 458: QTreeView::branch:has-children:!has-siblings:closed,\A 459: QTreeView::branch:closed:has-children:has-siblings {\A 460:   background: #1B1C1D;\A 461: }\A 462: \A 463: QTreeView::branch:open:has-children:!has-siblings,"; }

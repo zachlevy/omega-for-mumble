@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1133.86px" height="1133.86px" viewBox="0 0 1133.86 1133.86" enable-background="new 0 0 1133.86 1133.86"
-	 xml:space="preserve">
-<g id="Ebene_1" display="none">
-	<rect x="0" y="0" fill="#1A1A1A" width="1133.858" height="1133.858"/>
-	<path display="inline" fill="#1A1A1A" d="M1133.858,921.26c0,117.415-95.184,212.598-212.598,212.598H212.598
-		C95.184,1133.858,0,1038.675,0,921.26V212.598C0,95.184,95.184,0,212.598,0H921.26c117.415,0,212.598,95.184,212.598,212.598
-		V921.26z"/>
-	<polygon display="inline" fill="none" stroke="#FFFFFF" stroke-width="80" stroke-miterlimit="10" points="566.929,800.788 
-		439.37,673.228 311.811,800.788 311.811,460.63 439.37,333.071 566.929,460.63 694.488,333.071 822.047,460.63 822.047,800.788 
-		694.488,673.228 	"/>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="mumbleomega" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 1133.9 1133.9" enable-background="new 0 0 1133.9 1133.9" xml:space="preserve">
+<g id="v1" display="none">
+	<rect display="inline" fill="#1A1A1A" width="1133.9" height="1133.9"/>
+	<path display="inline" fill="#1A1A1A" d="M1133.9,921.3c0,117.4-95.2,212.6-212.6,212.6H212.6C95.2,1133.9,0,1038.7,0,921.3V212.6
+		C0,95.2,95.2,0,212.6,0h708.7c117.4,0,212.6,95.2,212.6,212.6V921.3z"/>
+	<polygon display="inline" fill="none" stroke="#FFFFFF" stroke-width="80" stroke-miterlimit="10" points="566.9,800.8 
+		439.4,673.2 311.8,800.8 311.8,460.6 439.4,333.1 566.9,460.6 694.5,333.1 822,460.6 822,800.8 694.5,673.2 	"/>
 </g>
-<g id="Ebene_2">
-	<rect x="0" y="0" fill="#248BF2" width="1133.86" height="1133.86"/>
-	<g>
-		<path fill="#FFFFFF" d="M716.23,417.629l-149.3,298.601L417.629,417.629l122.468,61.234l26.833,13.416l26.833-13.416
-			L716.23,417.629 M850.394,283.465L566.929,425.197L283.465,283.465l283.465,566.929L850.394,283.465L850.394,283.465z"/>
-	</g>
-	<g>
-		<path fill="#FFFFFF" d="M716.23,417.629l-149.3,298.601L417.629,417.629l122.468,61.234l26.833,13.416l26.833-13.416
-			L716.23,417.629 M850.394,283.465L566.929,425.197L283.465,283.465l283.465,566.929L850.394,283.465L850.394,283.465z"/>
-	</g>
+<g id="v2">
+	<circle id="background" fill="#3D97F2" cx="566.9" cy="566.9" r="566.9"/>
+	<linearGradient id="shadow_1_" gradientUnits="userSpaceOnUse" x1="1018.8146" y1="916.7924" x2="488.4825" y2="386.4602">
+		<stop  offset="0" style="stop-color:#2C323E;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#2C323E;stop-opacity:0.3"/>
+	</linearGradient>
+	<path id="shadow" fill="url(#shadow_1_)" d="M850.4,323.2L643,737.9V603.8l73.2-146.5l-122.5,61.2L566.9,532l-26.8-13.4
+		l-122.5-61.2l149.3,298.6L619,651.8v134.2l-52.1,104.1l205.4,205.4c200.2-77.9,345.2-266.2,360.2-490.1L850.4,323.2z"/>
+	<path id="symbol" fill="#FFFFFF" d="M716.2,457.3L566.9,755.9L417.6,457.3l122.5,61.2l26.8,13.4l26.8-13.4L716.2,457.3
+		 M850.4,323.1L566.9,464.9L283.5,323.1l283.5,566.9L850.4,323.1L850.4,323.1z"/>
 </g>
 </svg>
