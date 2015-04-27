@@ -128,7 +128,6 @@ QSlider::sub-page:disabled {
 QWidget {
   background: transparent;
   border: 0px;
-  margin: 0px;
   padding: 0px;
   color: #8392A9;
 }
@@ -176,7 +175,7 @@ QPushButton:hover {
 }
 
 QPushButton:pressed {
-  background: #00BF58;
+  background: #1dce73;
   color: #FFF;
 }
 
@@ -186,7 +185,7 @@ QPushButton:disabled {
 }
 
 QPushButton#qpbAdd {
-  background: #00BF58;
+  background: #1dce73;
   color: #FFF;
 }
 
@@ -294,7 +293,6 @@ QTextEdit {
   padding-right: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin: 10px;
 }
 
 QTextEdit#qteChat {
@@ -353,7 +351,7 @@ QToolButton:hover {
 }
 
 QToolButton:on {
-  background: #00BF58;
+  background: #1dce73;
 }
 
 QToolButton:off {
@@ -443,7 +441,7 @@ QTextBrowser {
 }
 
 .log-channel {
-  color: #00BF58;
+  color: #1dce73;
   font-weight: bold;
 }
 
@@ -453,7 +451,7 @@ QTextBrowser {
 }
 
 .log-target {
-  color: #00BF58;
+  color: #1dce73;
   font-weight: bold;
 }
 
@@ -510,7 +508,7 @@ QMenuBar::item:selected {
 }
 
 QMenuBar::item:pressed {
-  background: #00BF58;
+  background: #1dce73;
   color: #FFF;
 }
 
@@ -534,7 +532,7 @@ QMenu::item {
 }
 
 QMenu::item:selected {
-  background: #00BF58;
+  background: #1dce73;
   color: #FFF;
 }
 
@@ -548,9 +546,6 @@ QMenu::separator {
   height: 1px;
   border-top: 5px solid #FFF;
   border-bottom: 5px solid #FFF;
-}
-
-QMenu::indicator {
 }
 
 QListWidget {
@@ -644,13 +639,6 @@ QDialog#ConnectDialog {
     Configuration
    =============== */
 
-#ConfigDialog {
-  background: #CBD5E1;
-  qproperty-LayoutBottomMargin: 0;
-  qproperty-LayoutHorizontalSpacing: 0;
-  qproperty-LayoutVerticalSpacing: 100;
-}
-
 QStackedWidget#qswPages {
   qproperty-focusPolicy: TabFocus;
   qproperty-cursor: hand;
@@ -675,7 +663,7 @@ QCheckBox#qcbExpert {
    ========================= */
 
 QPushButton#qpbLoadPreset {
-  background: #00BF58;
+  background: #1dce73;
   color: #FFF;
 }
 
@@ -690,7 +678,7 @@ QPushButton#qpbLoadPreset:pressed {
 }
 
 QPushButton#qpbSavePreset {
-  background: #00BF58;
+  background: #1dce73;
   color: #FFF;
 }
 
@@ -709,7 +697,7 @@ QPushButton#qpbSavePreset:pressed {
    =========== */
 
 QPushButton#qpbStart {
-  background: #00BF58;
+  background: #1dce73;
   color: #FFF;
 }
 
@@ -724,7 +712,7 @@ QPushButton#qpbStart:pressed {
 }
 
 QPushButton#qpbCertificate {
-  background: #00BF58;
+  background: #1dce73;
   color: #FFF;
 }
 
