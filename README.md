@@ -2,7 +2,7 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/donzooles/omega-for-mumble?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-**omega-for-mumble** is a simple, beautified skin (theme) meant for the open-source and high quality voice chat software [Mumble](http://wiki.mumble.info/wiki/Main_Page). The project is open – anyone can help to improve it.
+**omega-for-mumble** is a simple & beautified skin / theme designed for the open-source and high quality voice-chat software **[mumble](http://wiki.mumble.info/wiki/Main_Page)**. The project is open – anyone can help to improve it.
 
 by <b>DonZooles</b> <br>
 
@@ -10,13 +10,13 @@ by <b>DonZooles</b> <br>
 ![2015-0515](https://github.com/donzooles/omega-for-mumble/blob/gh-pages/images/2015-0515.png?raw=true)
 
 ## installation
-1. **_unofficial_** <a href="https://github.com/donzooles/omega-for-mumble/wiki/installation#english">install-guide</a> (English, Omega)
-2. **_unofficial_** <a href="https://github.com/donzooles/omega-for-mumble/wiki/installation#deutsch">install-guide</a> (German, Omega)
-3. **_official_** [install-guide](http://wiki.mumble.info/wiki/Skins#Installing_a_Skin) (English, Mumble)
+× **unofficial** <a href="https://github.com/donzooles/omega-for-mumble/wiki/installation#english">install-guide</a> — english / omega<br />
+× **unofficial** <a href="https://github.com/donzooles/omega-for-mumble/wiki/installation#deutsch">install-guide</a> — german / omega<br />
+× **official** [install-guide](http://wiki.mumble.info/wiki/Skins#Installing_a_Skin) — english / mumble
 
 ## configuration
 
-See [Configuration](https://github.com/donzooles/omega-for-mumble/wiki/Configuration) for more information.
+See [configuration](https://github.com/donzooles/omega-for-mumble/wiki/Configuration) for more information.
 
 ## contributing
 
@@ -28,8 +28,8 @@ See [Configuration](https://github.com/donzooles/omega-for-mumble/wiki/Configura
 
 ## history
 
-See [Releases](https://github.com/donzooles/omega-for-mumble/releases) for detailed changelog.
+See [releases](https://github.com/donzooles/omega-for-mumble/releases) for detailed changelog.
 
 ## license
 
-[MIT License](https://github.com/donzooles/omega-for-mumble/blob/master/LICENSE.md) © Oliver Steckel
+[MIT license](https://github.com/donzooles/omega-for-mumble/blob/master/LICENSE.md) © DonZooles
