@@ -84,7 +84,6 @@ QSlider::handle {
   width: 6px;
   background: #ECEFF4;
   border: 3px solid #FF9C41;
-  margin: -3px -3px;
   border-radius: 6px;
   font-size: 4px;
 }
@@ -156,6 +155,7 @@ QMainWindow::separator {
 
 a {
   color: #3C96F1;
+  text-decoration: none;
 }
 
 /* =========
@@ -171,10 +171,6 @@ QPushButton {
 }
 
 QPushButton:hover {
-  background: #ECEFF4;
-}
-
-QPushButton:pressed {
   background: #1dce73;
   color: #FFF;
 }
@@ -255,29 +251,37 @@ QLabel#about {
 
 QLineEdit, QComboBox {
   background: #ECEFF4;
-  border: 1px solid #DADDE4;
-  border-radius: 4px;
-  padding: 4px 12px;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 12px;
 }
 
 QComboBox:on, QLineEdit:focus {
   border: 0px solid #FFF;
 }
 
+QComboBox::drop-down {
+  background-color: #FFF;
+  border: 0;
+  margin-left: 4px;
+  margin-right: 12px;
+  margin-top: 5px;
+}
+
 QComboBox::down-arrow {
-  image: url(skin:custom/branch_open.svg);
-  margin-top: 20px;
-  margin-right: 0px;
+  margin-top: -2px;
+  image: url(skin:custom/arrow_down.svg);
+  width: 10px;
 }
 
 QComboBox QAbstractItemView {
   border: 0;
-  background: #FFF;
+  background: #ECEFF4;
   color: #444;
-  padding: 10px;
+  padding: 4px;
 }
 
-QAbstractItemView:item {
+QAbstractItemView::item {
   padding: 10px;
 }
 
@@ -297,7 +301,6 @@ QTextEdit {
 
 QTextEdit#qteChat {
   qproperty-placeholderText: "type...";
-  qproperty-sizeAdjustPolicy: AdjustToContents;
   qproperty-cursor: IBeam;
   color: #8392A9;
   background: #2C323D;
@@ -305,7 +308,7 @@ QTextEdit#qteChat {
   padding-right: 5px;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin: 0px;
+  margin: 0;
 }
 
 /* =========
@@ -313,7 +316,7 @@ QTextEdit#qteChat {
    ========= */
  
 QToolBar {
-  background: #ECEFF4;
+  background: #3C4C66;
   border: 0;
   spacing: 0px;
   moveable: none;
@@ -346,12 +349,13 @@ QToolButton {
 }
 
 QToolButton:hover {
-  background: #CAD4E0;
-  border: 1px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #536480;
 }
 
 QToolButton:on {
-  background: #1dce73;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #1DCE73;
 }
 
 QToolButton:off {
@@ -363,8 +367,8 @@ QToolButton:off {
    ================================== */
 
 QTreeView {
-  background: #FFF;
-  color: #8392A9;
+  background: #2C323D;
+  color: #ACB9CA;
   font: normal 180% Arial, sans-serif;
   font-weight: bold;
   padding: 0px;
@@ -379,44 +383,33 @@ QTreeView::branch:closed:has-children:has-siblings {
 
 QTreeView::branch:open:has-children:!has-siblings,
 QTreeView::branch:open:has-children:has-siblings {
-  background: #3787D9;
-}
-
-QTreeView::branch:open:has-children:!has-siblings:hover,
-QTreeView::branch:open:has-children:has-siblings:hover {
-  background: #3077BF;
+  background: #8392A9;
 }
 
 QTreeView::branch:open:has-children:!has-siblings:selected,
 QTreeView::branch:open:has-children:has-siblings:selected {
-  background: #3D97F2;
+  background: #1DCE73;
 }
 
 QTreeView::item {
   height: 26px;
   padding: 4px;
-  background: #FFF;
+  background: transparent;
   border-bottom: 0px solid #ECEFF4;
+  border-left: 2px solid transparent;
 }
 
-QTreeView::item:hover {
-  background: #ECEFF4;
-  color: #3C4C66;
-  border-bottom: 2px solid #CAD4E0;
+QTreeView::item:hover,
+QTreeView::item:focus {
+  border-left: 4px solid #374256;
+  padding-left: 2px;
 }
 
 QTreeView::item:selected,
 QTreeView::item:selected:active {
-  background: #CAD4E0;
-  color: #374256;
-  border-bottom: 2px solid #ACB9CA;
+  background: #374256;
+  color: #CAD4E0;
 }
-
-QTreeWidget {
-  background: #FFF;
-}
-
-
 
 /* ===================
     Chat - Log Window
@@ -424,7 +417,7 @@ QTreeWidget {
 
 QTextBrowser {
   background: #2C323D;
-  color: #8392A9;
+  color: #ACB9CA;
   padding: 0px;
   margin: 0px;
   font-size: 14px;
@@ -441,7 +434,7 @@ QTextBrowser {
 }
 
 .log-channel {
-  color: #1dce73;
+  color: #1DCE73;
   font-weight: bold;
 }
 
@@ -471,15 +464,11 @@ QScrollBar {
 
 QScrollBar::handle {
   width: 5px;
-  background: #ACB9CA;
-}
-
-QScrollBar::handle:hover {
   background: #8392A9;
 }
 
-QScrollBar::handle:pressed {
-  background: #536480;
+QScrollBar::handle:hover {
+  background: #1DCE73;
 }
 
 QScrollBar::left-arrow, QScrollBar::right-arrow, QScrollBar::up-arrow, QScrollBar::down-arrow, QScrollBar::sub-line, QScrollBar::add-line, QScrollBar::add-page, QScrollBar::sub-page, QAbstractScrollArea::corner {
@@ -491,9 +480,8 @@ QScrollBar::left-arrow, QScrollBar::right-arrow, QScrollBar::up-arrow, QScrollBa
    ========== */
 
 QMenuBar {
-  border-bottom: 2px solid #ACB9CA;
-  background: #CAD4E0;
-  color: #374256;
+  background: #536480;
+  color: #CAD4E0;
 }
 
 QMenuBar::item {
@@ -504,11 +492,11 @@ QMenuBar::item {
 }
 
 QMenuBar::item:selected {
-  background: #ACB9CA;
+  background: #8392A9;
 }
 
 QMenuBar::item:pressed {
-  background: #1dce73;
+  background: #1DCE73;
   color: #FFF;
 }
 
@@ -517,35 +505,35 @@ QMenuBar::item:pressed {
    ====== */
 
 QMenu {
-  background: #FFF;
-  color: #8392A9;
+  background: #536480;
+  color: #CAD4E0;
   padding: 0;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 QMenu::item {
-  background: #FFF;
+  background: transparent;
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
 }
 
 QMenu::item:selected {
-  background: #1dce73;
+  background: #1DCE73;
   color: #FFF;
 }
 
 QMenu::item:disabled {
-  background: #ECEFF4;
-  color: #CAD4E0;
+  background: #8392A9;
+  color: #ACB9CA;
 }
 
 QMenu::separator {
-  background: #CCC;
+  background: #8392A9;
   height: 1px;
-  border-top: 5px solid #FFF;
-  border-bottom: 5px solid #FFF;
+  border-top: 5px solid #536480;
+  border-bottom: 5px solid #536480;
 }
 
 QListWidget {
@@ -581,8 +569,9 @@ RichTextHtmlEdit {
    ========== */
 
 ::indicator {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
+  margin-top: 1px;
 }
 
 QCheckBox::indicator:unchecked {
@@ -759,5 +748,4 @@ ViewCert QGroupBox {
   dialogbuttonbox-buttons-have-icons: 0;
  /* http://doc.qt.io/qt-4.8/stylesheet-reference.html#list-of-icons */
   spacing: 5;
-  qproperty-setContentsMargins: 0,0,0,0;
 }

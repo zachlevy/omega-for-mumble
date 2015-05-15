@@ -5,11 +5,11 @@
 <path id="background" fill="#FFAA50" d="M566.9,141.7C332,141.7,141.7,332,141.7,566.9S332,992.1,566.9,992.1
 	c235,0,425.2-190.3,425.2-425.2S801.8,141.7,566.9,141.7z M566.9,708.7c-78.3,0-141.7-63.5-141.7-141.7s63.5-141.7,141.7-141.7
 	S708.6,488.8,708.6,567S645.2,708.7,566.9,708.7z"/>
-<linearGradient id="shadow_1_" gradientUnits="userSpaceOnUse" x1="867.7374" y1="867.6776" x2="567" y2="566.94" gradientTransform="matrix(1 0 0 1 0 -4.003765e-002)">
+<linearGradient id="shadow_1_" gradientUnits="userSpaceOnUse" x1="867.7374" y1="266.1824" x2="567" y2="566.92" gradientTransform="matrix(1 0 0 -1 0 1133.7799)">
 	<stop  offset="0" style="stop-color:#2C323E;stop-opacity:0"/>
 	<stop  offset="1" style="stop-color:#2C323E;stop-opacity:0.3"/>
 </linearGradient>
 <path id="shadow" fill="url(#shadow_1_)" d="M667.2,466.7c25.6,25.6,41.5,61.1,41.5,100.2c0,78.3-63.5,141.7-141.7,141.7
 	c-39.1,0-74.6-15.9-100.2-41.5l0,0l283.6,283.6C838,908.8,909,837.8,950.8,750.3L667.2,466.7z"/>
-<circle id="symbol" fill="#FFFFFF" cx="566.9" cy="566.9" r="141.7"/>
+<circle id="symbol" display="none" fill="#FFFFFF" cx="566.9" cy="566.9" r="141.7"/>
 </svg>
