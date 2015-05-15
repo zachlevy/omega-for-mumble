@@ -1,24 +1,24 @@
-# MumbleOmega
+# omega-for-mumble
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/donzooles/omega-for-mumble?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-**MumbleOmega** is a simple, beautified skin (theme) meant for the open-source and high quality voice chat software [Mumble](http://wiki.mumble.info/wiki/Main_Page). The project is open – anyone can help to improve it.
+**omega-for-mumble** is a simple, beautified skin (theme) meant for the open-source and high quality voice chat software [Mumble](http://wiki.mumble.info/wiki/Main_Page). The project is open – anyone can help to improve it.
 
 by <b>DonZooles</b> <br>
 
-## Preview
-![2015-0402](https://github.com/donzooles/MumbleOmega/blob/gh-pages/images/mockup_2014-0402.png?raw=true)
+## preview
+![2015-0515](https://github.com/donzooles/omega-for-mumble/blob/gh-pages/images/2015-0515.png?raw=true)
 
-## Installation
-1. **_unofficial_** <a href="https://github.com/donzooles/MumbleOmega/wiki/installation#english">install-guide</a> (English, Omega)
-2. **_unofficial_** <a href="https://github.com/donzooles/MumbleOmega/wiki/installation#deutsch">install-guide</a> (German, Omega)
+## installation
+1. **_unofficial_** <a href="https://github.com/donzooles/omega-for-mumble/wiki/installation#english">install-guide</a> (English, Omega)
+2. **_unofficial_** <a href="https://github.com/donzooles/omega-for-mumble/wiki/installation#deutsch">install-guide</a> (German, Omega)
 3. **_official_** [install-guide](http://wiki.mumble.info/wiki/Skins#Installing_a_Skin) (English, Mumble)
 
-## Configuration
+## configuration
 
-See [Configuration](https://github.com/donzooles/MumbleOmega/wiki/Configuration) for more information.
+See [Configuration](https://github.com/donzooles/omega-for-mumble/wiki/Configuration) for more information.
 
-## Contributing
+## contributing
 
 1. Fork the project.
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -26,10 +26,10 @@ See [Configuration](https://github.com/donzooles/MumbleOmega/wiki/Configuration)
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request.
 
-## History
+## history
 
-See [Releases](https://github.com/donzooles/MumbleOmega/releases) for detailed changelog.
+See [Releases](https://github.com/donzooles/omega-for-mumble/releases) for detailed changelog.
 
-## License
+## license
 
-[MIT License](https://github.com/donzooles/MumbleOmega/blob/master/LICENSE.md) © Oliver Steckel
+[MIT License](https://github.com/donzooles/omega-for-mumble/blob/master/LICENSE.md) © Oliver Steckel
