@@ -1,6 +1,6 @@
 /*
  *
- * MumbleOmega
+ * omega-for-mumble
  * by DonZooles
  *
  * License: MIT
@@ -84,6 +84,7 @@ QSlider::handle {
   width: 6px;
   background: #ECEFF4;
   border: 3px solid #FF9C41;
+  margin: -3px -3px;
   border-radius: 6px;
   font-size: 4px;
 }
