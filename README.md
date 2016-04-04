@@ -4,9 +4,9 @@
 
 **omega-for-mumble** is a simple & beautified skin / theme designed for the open-source and high quality voice-chat software **[mumble](http://wiki.mumble.info/wiki/Main_Page)**. The project is open – anyone can help to improve it.
 
-by <b>DonZooles</b> <br>
+by <b>DONZOOLES™</b> <br>
 
-## preview
+## screenshot(s)
 ![2015-0515](https://github.com/donzooles/omega-for-mumble/blob/gh-pages/images/2015-0515.png?raw=true)
 
 ## installation
@@ -25,6 +25,10 @@ See [configuration](https://github.com/donzooles/omega-for-mumble/wiki/Configura
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request.
+
+## dev-releases
+
+See https://github.com/donzooles/omega-for-mumble/tree/dev for dev-releases.
 
 ## history
 
