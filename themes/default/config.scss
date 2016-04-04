@@ -1,0 +1,23 @@
+// Configuration file
+
+$window-title: "Mumble"; // Title of the Mumble-Window.
+$border-radius: 6px;
+
+//
+// Opacity
+//
+
+$opacity-main: 1; // Opacity of Main-Window. 0.0 to 1
+$opacity-config: 1; // Opacity of Configuration-Window. 0.0 to 1
+$opacity-connect: 1; // Opacity of Connection-Window. 0.0 to 1
+
+$button-layout: 2; // 0 = Windows; 1 = Mac; 2 = KDE; 3 = Gnome;
+
+//
+// Colors
+//
+
+$primary-accent-color: #1DCE73;
+$secondary-accent-color: #FFF;
+
+$animation: false;
