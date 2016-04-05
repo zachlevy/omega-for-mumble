@@ -7,7 +7,7 @@
 by <b>DONZOOLES™</b> <br>
 
 ## screenshot(s)
-![2015-0515](https://github.com/donzooles/omega-for-mumble/blob/gh-pages/images/2015-0515.png?raw=true)
+![2016-0405](https://raw.githubusercontent.com/donzooles/omega-for-mumble/additional/screenshots/2016-0405-0001.png)
 
 ## installation
 × **unofficial** <a href="https://github.com/donzooles/omega-for-mumble/wiki/installation#english">install-guide</a> — english / omega<br />
