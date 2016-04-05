@@ -1,15 +1,21 @@
 //
-//	This file requires SASS compiler. ('Koala' recommended)
-//	You can find the guide here: https://github.com/donzooles/omega-for-mumble/wiki/compile-theme
+// This file requires SASS compiler. ('Koala' recommended)
+// You can find the guide here: https://github.com/donzooles/omega-for-mumble/wiki/compile-theme
 //
-//	If you have any questions please ask in the support chat:
-//		https://gitter.im/donzooles/omega-for-mumble
+// If you have any questions please ask in the support chat:
+//	 https://gitter.im/donzooles/omega-for-mumble
 //
-//	Add your custom code to "custom.scss" then recompile stylesheet
+// Add your custom code to "custom.scss" then recompile stylesheet
+//
+
+
+// IMPORTANT FILES
 
 // Choose a Preset:
   @import "default";
   //@import "lite";
+  //@import "dark";
+  //@import "black";
 
 // Choose a Preset:
   @import "mintgreen";
@@ -23,16 +29,24 @@
 //
 // Edit .scss files instead. See https://github.com/donzooles/omega-for-mumble/wiki/compile-theme
 // If you have any questions please ask in the support chat:
-// https://gitter.im/donzooles/omega-for-mumble
+//   https://gitter.im/donzooles/omega-for-mumble
 //
 
-QDialog#ConfigDialog { qproperty-windowOpacity: $opacity-config; }
+QMainWindow#MainWindow {
+  qproperty-dockOptions { AnimatedDocks: false; };
+  //qproperty-animated: $DockAnimation;
+  qproperty-windowOpacity: $OpacityMainWindow; }
 
-QDialog#ConnectDialog { qproperty-windowOpacity: $opacity-connect; }
+QDialog#ConfigDialog { qproperty-windowOpacity: $OpacityConfigWindow; }
 
-QMainWindow#MainWindow { qproperty-windowOpacity: $opacity-main; }
+QDialog#ConnectDialog { qproperty-windowOpacity: $OpacityConnectWindow; }
 
-#MainWindow { qproperty-windowTitle: $window-title; }
+@if $WindowTitleCheck == true { #MainWindow { qproperty-windowTitle: $WindowTitle; } }
+
+@if $FixedWindowSizeMainWindow == true { 
+  #MainWindow {
+    qproperty-minimumSize: $FixedWindowSizeMainWindowWidth $FixedWindowSizeMainWindowHeight;
+    qproperty-maximumSize: $FixedWindowSizeMainWindowWidth $FixedWindowSizeMainWindowHeight; } }
 
 // ========= General Code =========
 // ========= Tables =========
@@ -58,14 +72,13 @@ QHeaderView::up-arrow {
 QSlider::groove {
   background: #ECEFF4;
   border: 3px solid transparent;
-  border-radius: $border-radius;
+  border-radius: $BorderRadius;
   font-size: 4px; }
 
 QSlider::groove:horizontal {
   height: 6px; }
 
-QSlider::groove:vertical {
-  width: 6px; }
+QSlider::groove:vertical { width: 6px; }
 
 QSlider::handle {
   height: 6px;
@@ -73,16 +86,16 @@ QSlider::handle {
   background: #ECEFF4;
   border: 3px solid #FF9C41;
   margin: -3px -3px;
-  border-radius: $border-radius;
+  border-radius: $BorderRadius;
   font-size: 4px; }
 
 QSlider::sub-page {
   background: $qslider;
-  border-radius: $border-radius; }
+  border-radius: $BorderRadius; }
 
 QSlider::add-page {
   background: #ECEFF4;
-  border-radius: $border-radius; }
+  border-radius: $BorderRadius; }
 
 QSlider::handle:hover {
   background: #FF9C41;
@@ -95,11 +108,9 @@ QSlider::handle:disabled {
   border: 3px solid #CAD4E0;
   background: #ECEFF4; }
 
-QSlider::groove:disabled {
-  background: #ECEFF4; }
+QSlider::groove:disabled { background: #ECEFF4; }
 
-QSlider::sub-page:disabled {
-  background: #CAD4E0; }
+QSlider::sub-page:disabled { background: #CAD4E0; }
 
 // ========= Widgets =========
 
@@ -132,7 +143,7 @@ a {
 // ========= Buttons =========
 
 QPushButton {
-  border-radius: $border-radius;
+  border-radius: $BorderRadius;
   background: #FFF;
   color: #8392A9;
   font-size: 12px;
@@ -167,7 +178,7 @@ QGroupBox {
   font-size: 11pt;
   margin-bottom: 10px;
   border-top: 12px solid #ECEFF4;
-  border-radius: $border-radius; }
+  border-radius: $BorderRadius; }
 
 QGroupBox::title {
   subcontrol-origin: margin;
@@ -205,7 +216,7 @@ QLabel#about {
 
 QLineEdit, QComboBox {
   background: $primary-background-color;
-  border-radius: $border-radius;
+  border-radius: $BorderRadius;
   padding: 5px 10px;
   font-size: 12px; }
 
@@ -245,7 +256,8 @@ QTextEdit {
   padding-bottom: 0px; }
 
 QTextEdit#qteChat {
-  qproperty-placeholderText: "type...";
+  @if $ChatInputPlaceholderCheck == true {
+    qproperty-placeholderText: $ChatInputPlaceholder; }
   qproperty-cursor: IBeam;
   color: $secondary-accent-color;
   background: $primary-background-color;
@@ -261,7 +273,8 @@ QToolBar {
   qproperty-minimumSize: 48px;
   background: $primary-app-bar-background-color;
   border: 0;
-  spacing: 0px; }
+  spacing: 0px;
+  border-right: $separator-border }
 
 QToolBar#qtIconToolbar {
   margin: 0px;
@@ -315,32 +328,38 @@ QTreeView {
   border: solid 12px transparent;
   align: center; }
 
+//QTreeView::branch {
+//  background: rgba(0,0,0,0.1); }
+
 QTreeView::branch:closed:has-children { 
-  image: url(skin:custom/branch_closed.svg); }
+  //image: url(skin:custom/branch_closed.svg);
+  background: rgba(0,0,0,0.1); }
 
 QTreeView::branch:open:has-children {
-  image: url(skin:custom/branch_open.svg); }
+  //image: url(skin:custom/branch_open.svg);
+  background: rgba(0,0,0,0.1); }
 
-QTreeView::branch:open:has-children:has-siblings:selected {
-  background: transparent; }
+QTreeView::branch:has-children:hover {
+  background: rgba(0,0,0,0.2); }
 
 //QTreeView::branch:!has-children:!has-siblings:adjoins-item {}
 
 QTreeView::item {
   height: 26px;
-  padding: 4px;
-  background: rgba(0,0,0,0.1);
+  padding: 10px;
+  font-weight: bold;
+  background: transparent;
   border-bottom: 0px solid #ECEFF4;
   border-left: 2px solid transparent;
   image-position: bottom left; }
 
 QTreeView::item:hover,
 QTreeView::item:focus {
-  background: rgba(0,0,0,0.2); }
+  background: rgba(0,0,0,0.3); }
 
 QTreeView::item:selected,
 QTreeView::item:selected:active {
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.3);
   color: #536480; }
 
 // ========= Chat - Log Window =========
@@ -404,6 +423,7 @@ QMenuBar {
   qproperty-inputMethodHints: lmhUppercaseOnly;
   padding-left: 51px;
   font-weight: bold;
+  border-bottom: $separator-border; 
   qproperty-minimumSize: 48px;
   background: $primary-app-bar-background-color;
   color: $primary-app-bar-color;
@@ -507,7 +527,7 @@ QDockWidget {
   qproperty-docked: false; }
 
 UserView#qtvUsers {
-  qproperty-animated: $animation;
+  qproperty-animated: $UserListAnimation;
   qproperty-indentation: 10;
   qproperty-autoScroll: false;
   qproperty-verticalScrollMode: ScrollPerItem;
@@ -518,7 +538,7 @@ UserView#qtvUsers {
 
 ServerView#qtwServers {
   qproperty-verticalScrollMode: ScrollPerItem;
-  qproperty-animated: $animation;
+  qproperty-animated: $ServerListAnimation;
   qproperty-indentation: 10; }
 
 QDialog#ConnectDialog {
@@ -528,18 +548,17 @@ QDialog#ConnectDialog {
 
 QStackedWidget#qswPages {
   qproperty-focusPolicy: TabFocus;
-  qproperty-cursor: hand;
-  qproperty-animated: $animation; }
+  qproperty-cursor: hand; }
 
 #qlwIcons {
-  border-radius: $border-radius;
+  border-radius: $BorderRadius;
   background: $primary-background-color;
   qproperty-iconSize: 14px;
   qproperty-minimumSize: 180px;
   qproperty-LayoutMargin: 0px; }
 
 QCheckBox#qcbExpert {
-  border-radius: $border-radius;
+  border-radius: $BorderRadius;
   padding: 10px; }
 
 // ========= Configuration - Overlay =========
@@ -602,7 +621,7 @@ QWhatsThis {
   color: $primary-color;
   padding-top: 10px;
   display: block;
-  border-radius: $border-radius;
+  border-radius: $BorderRadius;
   font-size: 12pt;
   white-space: pre;
   line-height: 20px; }
@@ -623,5 +642,6 @@ ViewCert QGroupBox {
   margin-top: 0px; }
 
 * {
+  button-layout: $ButtonLayout;
   dialogbuttonbox-buttons-have-icons: 0;  // http://doc.qt.io/qt-4.8/stylesheet-reference.html#list-of-icons
   qproperty-alternatingRowColors: false; }
