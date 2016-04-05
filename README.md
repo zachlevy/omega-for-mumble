@@ -1,6 +1,6 @@
 # omega-for-mumble
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/donzooles/omega-for-mumble?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://badges.gitter.im/donzooles/omega-for-mumble.svg)](https://gitter.im/donzooles/omega-for-mumble?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 **omega-for-mumble** is a simple & beautified skin / theme designed for the open-source and high quality voice-chat software **[mumble](http://wiki.mumble.info/wiki/Main_Page)**. The project is open – anyone can help to improve it.
 
