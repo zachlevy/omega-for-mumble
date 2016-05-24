@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="favorite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1133.9 1133.9" enable-background="new 0 0 1133.9 1133.9" xml:space="preserve">
-<path id="background" fill="#F04141" d="M566.9,0C253.8,0,0,253.8,0,566.9s253.8,566.9,566.9,566.9s566.9-253.8,566.9-566.9
-	S880,0,566.9,0z M842.3,651.4L566.9,895.7L291.5,651.4c-73.8-73.8-73.8-193.5,0-267.3s193.5-73.8,267.3,0c2.8,2.8,5.5,5.7,8.1,8.7
-	c2.6-2.9,5.3-5.9,8.1-8.7c73.8-73.8,193.5-73.8,267.3,0S916.1,577.6,842.3,651.4z"/>
-<linearGradient id="shadow_1_" gradientUnits="userSpaceOnUse" x1="992.3978" y1="190.6622" x2="496.7" y2="686.36" gradientTransform="matrix(1 0 0 -1 0 1133.8199)">
-	<stop  offset="0" style="stop-color:#2C323E;stop-opacity:0"/>
-	<stop  offset="1" style="stop-color:#2C323E;stop-opacity:0.3"/>
-</linearGradient>
-<path id="shadow" fill="url(#shadow_1_)" d="M1125.1,666.9L842.3,384.1c73.8,73.8,73.9,193.5,0,267.3L566.9,895.7L292.2,652
-	l453.2,453.2C940.3,1040.6,1088.4,873,1125.1,666.9z"/>
-<path id="symbol_1_" display="none" fill="#FFFFFF" d="M842.3,651.4L566.9,895.7L291.5,651.4c-73.8-73.8-73.8-193.5,0-267.3
-	s193.5-73.8,267.3,0c2.8,2.8,5.5,5.7,8.1,8.7c2.6-2.9,5.3-5.9,8.1-8.7c73.8-73.8,193.5-73.8,267.3,0S916.1,577.6,842.3,651.4z"/>
+<svg version="1.1" id="microphone-muted" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<g id="mic">
+	<path id="background" d="M727.3,800H72.7C32.7,800,0,767.3,0,727.3V72.7C0,32.7,32.7,0,72.7,0h654.5c40,0,72.7,32.7,72.7,72.7
+		v654.5C800,767.3,767.3,800,727.3,800z"/>
+	<path fill="#FFFFFF" d="M700,306.3c0-93-75.6-168.8-168.8-168.8c-53,0-100.3,24.4-131.3,62.7c-30.9-38.2-78.2-62.7-131.3-62.7
+		c-93.2,0-168.7,75-168.7,168.8c0,131.3,300,356.3,300,356.3S700,437.6,700,306.3z"/>
+</g>
+<g id="stroke" display="none">
+	
+		<rect x="395.7" y="69.3" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 416.7709 1000.6386)" display="inline" width="39.7" height="689.4"/>
+	
+		<rect x="333.7" y="27.2" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 374.5721 898.9445)" display="inline" fill="#FFFFFF" width="79.6" height="689.4"/>
+</g>
 </svg>

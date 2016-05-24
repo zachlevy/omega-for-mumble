@@ -4,7 +4,7 @@
 
   $WindowTitleCheck: true; // Change Window-Title? true/false
   $WindowTitle: "mumble-omega"; // If $WindowTitleCheck == true -> Title of the Mumble-Window.
-  $ChatInputPlaceholderCheck: true; // Change ChatInputPlaceholder? true/false
+  $ChatInputPlaceholderCheck: false; // Change ChatInputPlaceholder? true/false
   $ChatInputPlaceholder: "type..."; // If $ChatInputPlaceholderCheck == true -> Title of the Mumble-Window.
 
 
@@ -27,6 +27,6 @@
 
 // Window Size (for screenshots)
 
-  $FixedWindowSizeMainWindow: true;
-  $FixedWindowSizeMainWindowWidth: 1024px;
-  $FixedWindowSizeMainWindowHeight: 720px;
+  $FixedWindowSizeMainWindow: false;
+  $FixedWindowSizeMainWindowWidth: 890px;
+  $FixedWindowSizeMainWindowHeight: 620px;

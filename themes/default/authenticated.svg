@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="authenticated_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 1133.9 1133.9" enable-background="new 0 0 1133.9 1133.9" xml:space="preserve">
-<path id="background" fill="#FFAA50" d="M566.9,0C253.8,0,0,253.8,0,566.9s253.8,566.9,566.9,566.9s566.9-253.8,566.9-566.9
-	S880,0,566.9,0z M788.8,872.4L566.9,755.7L345,872.4l42.4-247.1l-179.5-175L456,414.2l111-224.8l111,224.8l248,36.1l-179.5,175
-	L788.8,872.4z"/>
-<g id="shadow">
-	<linearGradient id="_x33__1_" gradientUnits="userSpaceOnUse" x1="387.8833" y1="628.1748" x2="208.9449" y2="449.2364">
-		<stop  offset="0" style="stop-color:#2C323E;stop-opacity:0"/>
-		<stop  offset="1" style="stop-color:#2C323E;stop-opacity:0.3"/>
-	</linearGradient>
-	<polygon id="_x33_" fill="url(#_x33__1_)" points="387.4,625.3 207.9,450.3 386.7,629.4 	"/>
-	<linearGradient id="_x32__1_" gradientUnits="userSpaceOnUse" x1="782.6927" y1="462.054" x2="538.456" y2="217.8173">
-		<stop  offset="0" style="stop-color:#2C323E;stop-opacity:0"/>
-		<stop  offset="1" style="stop-color:#2C323E;stop-opacity:0.3"/>
-	</linearGradient>
-	<polygon id="_x32_" fill="url(#_x32__1_)" points="677.9,414.2 711.6,419.1 711.6,419.1 811.2,433.6 566.9,189.4 	"/>
-	<linearGradient id="_x31__1_" gradientUnits="userSpaceOnUse" x1="954.9106" y1="980.6097" x2="595.879" y2="621.5781">
-		<stop  offset="0" style="stop-color:#2C323E;stop-opacity:0"/>
-		<stop  offset="1" style="stop-color:#2C323E;stop-opacity:0.3"/>
-	</linearGradient>
-	<path id="_x31_" fill="url(#_x31__1_)" d="M926,450.3l-179.5,175v0h0l42.4,247.1l-0.1-0.1l0,0.1L566.9,755.7L345.2,872.3
-		l260.3,260.3c266.7-17.9,482.9-220.4,522-480.8L926,450.3z"/>
+<svg version="1.1" id="microphone-muted" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<g id="mic">
+	<path id="background" d="M727.3,800H72.7C32.7,800,0,767.3,0,727.3V72.7C0,32.7,32.7,0,72.7,0h654.5c40,0,72.7,32.7,72.7,72.7
+		v654.5C800,767.3,767.3,800,727.3,800z"/>
+	<polygon fill="#FFFFFF" points="400,114.7 492.7,302.5 700,332.6 550,478.9 585.4,685.3 400,587.8 214.6,685.3 250,478.9 
+		100,332.6 307.3,302.5 	"/>
 </g>
-<polygon id="symbol_1_" display="none" fill="#FFFFFF" points="677.9,414.2 566.9,189.4 456,414.2 207.9,450.3 387.4,625.3 
-	345,872.4 566.9,755.7 788.8,872.4 746.5,625.3 926,450.3 "/>
+<g id="stroke" display="none">
+	
+		<rect x="395.7" y="69.3" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 416.7709 1000.6386)" display="inline" width="39.7" height="689.4"/>
+	
+		<rect x="333.7" y="27.2" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 374.5721 898.9445)" display="inline" fill="#FFFFFF" width="79.6" height="689.4"/>
+</g>
 </svg>

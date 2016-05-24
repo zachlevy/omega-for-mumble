@@ -1,64 +1,482 @@
+QMainWindow#MainWindow { qproperty-dockOptions-AnimatedDocks: false; qproperty-windowOpacity: 1; }
+
+QDialog#ConfigDialog { qproperty-windowOpacity: 0.95; }
+
+QDialog#ConnectDialog { qproperty-windowOpacity: 0.95; }
+
+#MainWindow { qproperty-windowTitle: "mumble-omega"; }
+
+* { button-layout: 2; dialogbuttonbox-buttons-have-icons: 0; qproperty-alternatingRowColors: false; }
+
+QObject { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 14px; font-weight: 400; }
+
+QTreeView { background: black; color: #cdcdcd; padding: 8px; border: solid 12px transparent; }
+
+QTreeView::branch { qproperty-iconSize: 8px; border-image: none; image: none; height: 8px; width: 8px; }
+
+QTreeView::branch:closed:has-children { image: url(skin:custom/branch_closed.svg); }
+
+QTreeView::branch:open:has-children { image: url(skin:custom/branch_open.svg); }
+
+QTreeView::branch:has-children:hover { border: 0; border-radius: 8px; background: #141414; }
+
+QTreeView::item { height: 18px; border-left: 2px solid transparent; margin-bottom: 24px; font-size: 12px; font-family: monospace; }
+
+QTreeView::item:first { margin-top: 24px; }
+
+QTreeView::item:hover, QTreeView::item:focus { color: #e1e1e1; }
+
+QAbstractItemView { qproperty-verticalScrollMode: ScrollPerPixel; }
+
+QTextEdit { background: black; color: #cdcdcd; border: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px; }
+
+/*QTextEdit#qteChat {
+	@if $ChatInputPlaceholderCheck == true {
+		qproperty-placeholderText: $ChatInputPlaceholder; }
+	qproperty-cursor: IBeam;
+	color: $secondary-accent-color;
+	background: $dummy-background-color;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0;
+}*/
+QTextBrowser { background: black; color: #cdcdcd; padding: 0px; margin: 0px; font-family: monospace; font-size: 14px; border: 0; }
+
+.log-time { color: #cdcdcd; background: transparent; }
+
+.log-server { color: #cdcdcd; font-weight: bold; }
+
+.log-channel { color: #cdcdcd; font-weight: bold; }
+
+.log-privilege { color: #cdcdcd; font-weight: bold; }
+
+.log-target { color: #cdcdcd; font-weight: bold; }
+
+.log-source { color: #cdcdcd; font-weight: bold; }
+
+a { color: white; }
+
+QToolBar { qproperty-minimumSize: 48px; background: black; border: 0; spacing: 0px; qproperty-iconSize: 24px; margin: 0; padding: 0; }
+
+QToolBar::separator { background: black; width: 0px; height: 0px; border: 0; }
+
+QToolBar::handle { image: url(skin:custom/); padding: 8px; }
+
+QToolBar::handle:vertical { width: 60px; height: 6px; }
+
+QToolBar::handle:horizontal { width: 6px; height: 60px; }
+
+QToolButton { background: transparent; border: 0; border-left: 3px solid transparent; height: 30px; width: 24px; padding: 12px; margin: 0px; }
+
+QToolBar:vertical QToolButton:hover { border-left: 3px solid #0064a8; }
+
+QToolBar:vertical QToolButton:on { border-left: 3px solid #0096fa; }
+
+QToolButton:off { border: 0; }
+
+QScrollBar { border: 0 solid black; background: #141414; border-radius: 8px; }
+
+QScrollbar:vertical { width: 16px; }
+
+QScrollBar:horizontal { height: 16px; }
+
+QScrollBar::handle { background: #1e1e1e; border-radius: 8px; border: 0 solid #323232; }
+
+QScrollBar::left-arrow, QScrollBar::right-arrow, QScrollBar::up-arrow, QScrollBar::down-arrow, QScrollBar::sub-line, QScrollBar::add-line, QScrollBar::add-page, QScrollBar::sub-page, QAbstractScrollArea::corner { background: transparent; }
+
+QMenuBar { qproperty-inputMethodHints: lmhUppercaseOnly; padding-left: 51px; font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.2); qproperty-minimumSize: 48px; background: black; color: #cdcdcd; font-size: 14px; image-position: center left; }
+
+QMenuBar::item { background: transparent; padding: 16px; padding-left: 20px; padding-right: 20px; }
+
+QMenuBar::item:selected { background: black; }
+
+QMenuBar::item:pressed { background: black; color: #cdcdcd; }
+
+QMenu { background: black; color: #cdcdcd; padding: 0; padding-top: 5px; padding-bottom: 5px; }
+
+QMenuBar#qmServer { margin-left: 32px; }
+
+QMenu::item { background: transparent; padding: 10px; padding-left: 30px; padding-right: 30px; }
+
+QMenu::item:selected { background: black; color: #cdcdcd; }
+
+QMenu::item:disabled { color: #323232; }
+
+QMenu::separator { background: black; height: 1px; border-top: 5px solid #FFF; border-bottom: 5px solid #FFF; }
+
 /*
-Error: Undefined variable: "$OpacityMainWindow".
-        on line 38 of A:\Dokumente\GitHub\omega-for-mumble\themes\default\stylesheet.scss
+QSlider::groove {
+	background: $dummy-background-color;
+	border: 3px solid transparent;
+	border-radius: $BorderRadius;
+	font-size: 4px; }
 
-33: //
-34: 
-35: QMainWindow#MainWindow {
-36:   qproperty-dockOptions { AnimatedDocks: false; };
-37:   //qproperty-animated: $DockAnimation;
-38:   qproperty-windowOpacity: $OpacityMainWindow; }
-39: 
-40: QDialog#ConfigDialog { qproperty-windowOpacity: $OpacityConfigWindow; }
-41: 
-42: QDialog#ConnectDialog { qproperty-windowOpacity: $OpacityConnectWindow; }
-43: 
+QSlider::groove:horizontal {
+	height: 6px; }
 
-Backtrace:
-A:\Dokumente\GitHub\omega-for-mumble\themes\default\stylesheet.scss:38
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:20:in `render'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:404:in `run'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-P:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-P:/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-P:/Koala/bin/sass:18:in `load'
-P:/Koala/bin/sass:18:in `<main>'
+QSlider::groove:vertical { width: 6px; }
+
+QSlider::handle {
+	height: 6px;
+	width: 6px;
+	background: $dummy-background-color;
+	border: 3px solid #FF9C41;
+	margin: -3px -3px;
+	border-radius: $BorderRadius;
+	font-size: 4px; }
+
+QSlider::sub-page {
+	background: $dummy-background-color;
+	border-radius: $BorderRadius; }
+
+QSlider::add-page {
+	background: $dummy-background-color;
+	border-radius: $BorderRadius; }
+
+QSlider::handle:hover {
+	background: $dummy-background-color;
+	border: 3px solid #ECEFF4; }
+
+QSlider::handle:pressed {
+	background: $dummy-background-color; }
+
+QSlider::handle:disabled {
+	border: 3px solid #CAD4E0;
+	background: $dummy-background-color; }
+
+QSlider::groove:disabled { background: $dummy-background-color; }
+
+QSlider::sub-page:disabled { background: $dummy-background-color; }
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$OpacityMainWindow\".\A         on line 38 of A:\Dokumente\GitHub\omega-for-mumble\themes\default\stylesheet.scss\A \A 33: //\A 34: \A 35: QMainWindow#MainWindow {\A 36:   qproperty-dockOptions { AnimatedDocks: false; };\A 37:   //qproperty-animated: $DockAnimation;\A 38:   qproperty-windowOpacity: $OpacityMainWindow; }\A 39: \A 40: QDialog#ConfigDialog { qproperty-windowOpacity: $OpacityConfigWindow; }\A 41: \A 42: QDialog#ConnectDialog { qproperty-windowOpacity: $OpacityConnectWindow; }\A 43: "; }
+/*
+
+// ========= Tables =========
+
+QHeaderView::section {
+	border: 0;
+	background: $dummy-background-color;
+	padding: 6px;
+	color: $dummy-font-color; }
+
+QHeaderView::down-arrow {
+	image: url(custom/arrow_down.svg);
+	width: 16px;
+	height: 16px; }
+
+QHeaderView::up-arrow {
+	image: url(custom/arrow_up.svg);
+	width: 16px;
+	height: 16px; }
+
+
+
+// ========= Widgets =========
+
+QWidget {
+	background: transparent;
+	border: 0px;
+	padding: 0px;
+	color: $dummy-font-color; }
+
+// ========= Main =========
+
+QDialog {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QMainWindow {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QMainWindow::separator {
+	background: transparent;
+	color: $dummy-font-color;
+	width: 1px;
+	height: 1px; }
+
+a {
+	color: $dummy-font-color;
+	text-decoration: none; }
+
+// ========= Buttons =========
+
+QPushButton {
+	border-radius: $BorderRadius;
+	background: $dummy-background-color;
+	color: $dummy-font-color;
+	font-size: 12px;
+	padding: 6px 10px; }
+
+QPushButton:hover {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton:disabled {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbAdd {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbAdd:hover {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbAdd:pressed {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+// ========= Group Boxes - Input Elements =========
+
+QGroupBox {
+	background: $dummy-background-color;
+	color: $dummy-font-color;
+	margin-top: 35px;
+	font-size: 11pt;
+	margin-bottom: 10px;
+	border-top: 12px solid #ECEFF4;
+	border-radius: $BorderRadius; }
+
+QGroupBox::title {
+	subcontrol-origin: margin;
+	subcontrol-position: top left;
+	padding-left: 20px;
+	padding-right: 90000px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: $dummy-font-color;
+	border-bottom: 2px solid $primary-app-bar-background-color;
+	background: $dummy-background-color;
+	margin-bottom: 35px; }
+
+QTabWidget::pane {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QTabBar::tab {
+	background: $dummy-background-color;
+	color: $dummy-font-color;
+	padding: 6px;
+	padding-left: 10px;
+	padding-right: 10px; }
+
+QTabBar::tab:hover {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QTabBar::tab:selected {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QLabel#about {
+	qproperty-text: "..."; }
+
+QLineEdit, QComboBox {
+	background: $dummy-background-color;
+	border-radius: $BorderRadius;
+	padding: 5px 10px;
+	font-size: 12px; }
+
+QComboBox:on, QLineEdit:focus {
+	border: 0px solid #FFF; }
+
+QComboBox::drop-down {
+	background: $dummy-background-color;
+	border: 0;
+	margin-left: 4px;
+	margin-right: 12px;
+	margin-top: 5px; }
+
+QComboBox::down-arrow {
+	margin-top: -2px;
+	image: url(skin:custom/arrow_down.svg);
+	width: 10px; }
+
+QComboBox QAbstractItemView {
+	border: 0;
+	background: $dummy-background-color;
+	color: $dummy-font-color;
+	padding: 4px; }
+
+QAbstractItemView:item {
+	padding: 100px; }
+
+
+	
+	
+	
+	
+	
+	
+	
+QListWidget {
+	width: 700px;
+	position: fixed;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	color: $dummy-font-color;
+	font: 14px;
+	padding-top: 40px; }
+
+QListWidget::item {
+	padding: 12px;
+	border: 0px; }
+
+QListWidget::item:selected {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+RichTextHtmlEdit {
+	background: $dummy-background-color;
+	color: $dummy-font-color;
+	padding: 0px;
+	font-size: 14px;
+	border: 0; }
+
+// ========= Controls =========
+
+::indicator {
+	width: 12px;
+	height: 12px;
+	margin-top: 1px; }
+
+QCheckBox::indicator:unchecked {
+	image: url(skin:custom/checkbox_unchecked.svg); }
+
+QCheckBox::indicator:checked {
+	image: url(skin:custom/checkbox_checked.svg); }
+
+QRadioButton::indicator:checked {
+	image: url(skin:custom/radio_checked.svg); }
+
+QRadioButton::indicator:unchecked {
+	image: url(skin:custom/radio_unchecked.svg); }
+
+QStackedWidget {
+	margin: 0; }
+
+// ========= qProperty =========
+
+QDockWidget {
+	qproperty-docked: false; }
+
+UserView#qtvUsers {
+	qproperty-animated: $UserListAnimation;
+	qproperty-indentation: 10;
+	qproperty-autoScroll: false;
+	qproperty-verticalScrollMode: ScrollPerPixel;
+	qproperty-tabKeyNavigation: true;
+	qproperty-selectionBehavior: SelectRows;
+	qproperty-textElideMode: ElideNone;
+	qproperty-expandsOnDoubleClick: false; }
+
+ServerView#qtwServers {
+	qproperty-verticalScrollMode: ScrollPerItem;
+	qproperty-animated: $ServerListAnimation;
+	qproperty-indentation: 10; }
+
+QDialog#ConnectDialog {
+	qproperty-customizeWindowHint: true; }
+
+// ========= Configuration =========
+
+QStackedWidget#qswPages {
+	qproperty-focusPolicy: TabFocus;
+	qproperty-cursor: hand; }
+
+#qlwIcons {
+	border-radius: $BorderRadius;
+	background: $dummy-background-color;
+	qproperty-iconSize: 14px;
+	qproperty-minimumSize: 180px;
+	qproperty-LayoutMargin: 0px; }
+
+QCheckBox#qcbExpert {
+	border-radius: $BorderRadius;
+	padding: 10px; }
+
+// ========= Configuration - Overlay =========
+
+QPushButton#qpbLoadPreset {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbLoadPreset:hover {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbLoadPreset:pressed {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbSavePreset {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbSavePreset:hover {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbSavePreset:pressed {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+// ========= Recording =========
+
+QPushButton#qpbStart {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbStart:hover {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbStart:pressed {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbCertificate {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbCertificate:hover {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+QPushButton#qpbCertificate:pressed {
+	background: $dummy-background-color;
+	color: $dummy-font-color; }
+
+// ========= Tooltip =========
+
+QToolTip,
+QWhatsThis {
+	background: $dummy-background-color;
+	color: $dummy-font-color;
+	padding-top: 10px;
+	display: block;
+	border-radius: $BorderRadius;
+	font-size: 12pt;
+	white-space: pre;
+	line-height: 20px; }
+
+ApplicationPalette {
+	qproperty-tooltipbase: #ECEFF4;
+	qproperty-tooltiptext: #8392A9;
+	qproperty-tooltipborder: #ECEFF4;
+	qproperty-link: $dummy-font-color; }
+
+QPalette::Link {
+	color: $dummy-font-color; }
+
+ViewCert {
+	min-height: 600px; }
+
+ViewCert QGroupBox {
+	margin-top: 0px; }
+	
+*/

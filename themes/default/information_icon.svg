@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="information" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
-<path id="information_1_" fill="#4A4F65" d="M800,0H417.3c-11.1,0-21.7,4.4-29.6,12.3l-358.1,358c-16.4,16.4-16.4,42.8,0,59.2
-	l340.8,340.8c16.4,16.4,42.8,16.4,59.2,0l358.1-358.1c7.8-7.8,12.3-18.5,12.3-29.6V0L800,0z M643.9,114.3L643.9,114.3
-	c23.1,0,41.8,18.8,41.8,41.8l0,0c0,37.3-45.1,55.9-71.4,29.6l0,0C587.9,159.4,606.5,114.3,643.9,114.3z"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" enable-background="new 0 0 1200 1200" xml:space="preserve">
+<g id="grid" display="none">
+	<g id="tilt_x5F_down" display="inline">
+	</g>
+	<g id="tilt_x5F_up" display="inline">
+	</g>
+	<g id="vertical" display="inline">
+	</g>
+	<g id="horizontal" display="inline">
+	</g>
+</g>
+<g id="Ebene_6">
+	<path d="M1050,1150H150c-55,0-100-45-100-100V150C50,95,95,50,150,50h900c55,0,100,45,100,100v900C1150,1105,1105,1150,1050,1150z"
+		/>
+	<g>
+		<path fill="#FFFFFF" d="M600,300v600V300 M600,200c-55.2,0-100,44.8-100,100v600c0,55.2,44.8,100,100,100s100-44.8,100-100V300
+			C700,244.8,655.2,200,600,200L600,200z"/>
+	</g>
+	<g>
+		<path fill="#FFFFFF" d="M300,500v400V500 M300,400c-55.2,0-100,44.8-100,100v400c0,55.2,44.8,100,100,100s100-44.8,100-100V500
+			C400,444.8,355.2,400,300,400L300,400z"/>
+	</g>
+	<g>
+		<path fill="#FFFFFF" d="M900,700L900,700v200c0,0,0,0,0,0V700 M900,600c-55.2,0-100,44.8-100,100v200c0,55.2,44.8,100,100,100
+			s100-44.8,100-100V700C1000,644.8,955.2,600,900,600L900,600z"/>
+	</g>
+</g>
 </svg>

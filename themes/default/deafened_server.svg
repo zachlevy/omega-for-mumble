@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="speaker" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1133.9 1133.9" enable-background="new 0 0 1133.9 1133.9" xml:space="preserve">
-<g id="speaker_1_">
-	<path id="_x32_" fill="#F04141" d="M349.1,905l190.5,158.7c8.9,7.6,20.4,12.1,33,12.1c28.2,0,51-22.8,51-51V630.5L349.1,905z"/>
-	<path id="_x31_" fill="#F04141" d="M997.9,15.7L623.6,390V108.9c0-28.1-22.8-51-51-51c-12.2,0-23.4,4.3-32.2,11.5L283.5,283.5H102
-		c-56.4,0-102,45.7-102,102v364.2c0,50.7,37,92.7,85.4,100.7h77.8L15.7,997.9l60.1,60.1l207.6-207.6l340.1-340.1L1058,75.9
-		L997.9,15.7z"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" enable-background="new 0 0 1200 1200" xml:space="preserve">
+<g id="grid" display="none">
+	<g id="tilt_x5F_down" display="inline">
+	</g>
+	<g id="tilt_x5F_up" display="inline">
+	</g>
+	<g id="vertical" display="inline">
+	</g>
+	<g id="horizontal" display="inline">
+	</g>
 </g>
-<path id="_x29_" fill="#F04141" d="M1064.3,566.8c0-105.5-37-202.3-98.7-278.2L915.1,339c49.1,62.8,78.4,141.9,78.4,227.7h0.1
-	c0,116-53.4,219.5-137,287.3l0.7-0.5c-15.3,12.2-17.9,34.5-5.7,49.8c12.1,15.2,34.3,17.8,49.6,5.9
-	C1000.7,828.6,1064.4,705.2,1064.3,566.8L1064.3,566.8C1064.3,566.9,1064.3,566.9,1064.3,566.8z"/>
-<path id="_x29__1_" fill="#F04141" d="M788.2,465.9c17.9,29.4,28.3,63.9,28.3,100.9c0,0,0,0,0,0.1c0,72.4-39.9,135.4-98.9,168.4
-	c-16.9,9.8-22.5,31.5-12.7,48.3c9.8,16.8,31.2,22.5,48.1,13c80.1-45.2,134.3-131.1,134.3-229.7v-0.1c0-56.6-17.8-109-48-152.1
-	L788.2,465.9z"/>
+<g id="Ebene_6">
+	<path id="background" d="M1050,1150H150c-55,0-100-45-100-100V150C50,95,95,50,150,50h900c55,0,100,45,100,100v900
+		C1150,1105,1105,1150,1050,1150z"/>
+	<path fill="#FF9696" d="M200,746.5v-293c0-33.4,16.7-64.7,44.5-83.2L500,200v800L244.5,829.7C216.7,811.1,200,779.9,200,746.5z"/>
+	<path fill="none" stroke="#FF9696" stroke-width="100" stroke-miterlimit="10" d="M601,250c192.7,0,349,156.7,349,350
+		S793.7,950,601,950"/>
+	<path fill="none" stroke="#FF9696" stroke-width="100" stroke-miterlimit="10" d="M600,450c82.8,0,150,67.2,150,150
+		s-67.2,150-150,150"/>
+</g>
+<g id="stroke">
+	<rect x="592.2" y="159.1" transform="matrix(0.7071 0.7071 -0.7071 0.7071 618.75 -256.2946)" width="53" height="919.2"/>
+	
+		<rect x="509.5" y="102.9" transform="matrix(0.7071 0.7071 -0.7071 0.7071 562.5 -232.9951)" fill="#FF9696" width="106.1" height="919.2"/>
+</g>
 </svg>
