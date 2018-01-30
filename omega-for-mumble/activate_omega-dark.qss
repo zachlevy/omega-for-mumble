@@ -6,7 +6,7 @@
  * License: MIT
  *
  */
- 
+
 /* ================
     Custom Opacity
    ================ */
@@ -63,30 +63,30 @@ QHeaderView::up-arrow {
 /* =========
     QSlider
    ========= */
-   
+
 QSlider::groove {
   background: #ECEFF4;
-  border: 3px solid transparent;
-  border-radius: 6px;
-  font-size: 4px;
+  border: 12px solid transparent;
+  border-radius: 24px;
+  font-size: 16px;
 }
 
 QSlider::groove:horizontal {
-  height: 6px;
+  height: 24px;
 }
 
 QSlider::groove:vertical {
-  width: 6px;
+  width: 24px;
 }
 
 QSlider::handle {
-  height: 6px;
-  width: 6px;
+  height: 24px;
+  width: 24px;
   background: #ECEFF4;
-  border: 3px solid #FF9C41;
-  margin: -3px -3px;
-  border-radius: 6px;
-  font-size: 4px;
+  border: 12px solid #FF9C41;
+  margin: -12px -12px;
+  border-radius: 24px;
+  font-size: 16px;
 }
 
 QSlider::sub-page {
@@ -101,7 +101,7 @@ QSlider::add-page {
 
 QSlider::handle:hover {
   background: #FF9C41;
-  border: 3px solid #ECEFF4;
+  border: 12px solid #ECEFF4;
 }
 
 QSlider::handle:pressed {
@@ -109,7 +109,7 @@ QSlider::handle:pressed {
 }
 
 QSlider::handle:disabled {
-  border: 3px solid #CAD4E0;
+  border: 12px solid #CAD4E0;
   background: #ECEFF4;
 }
 
@@ -315,7 +315,7 @@ QTextEdit#qteChat {
 /* =========
     Toolbar
    ========= */
- 
+
 QToolBar {
   background: #3C4C66;
   border: 0;
